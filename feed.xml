@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jonathan's Bookmarks Digest</title>
+    <link>https://jonathan-wachter.github.io/bookmarks-digest</link>
+    <language>en-us</language>
+    <description>A private, daily-ish audio digest of the things Jonathan bookmarks on X — read aloud and woven together by theme. ~95% bookmarked text, lightly narrated.</description>
+    <itunes:author>Bookmarks Digest</itunes:author>
+    <itunes:summary>A private, daily-ish audio digest of the things Jonathan bookmarks on X — read aloud and woven together by theme. ~95% bookmarked text, lightly narrated.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://jonathan-wachter.github.io/bookmarks-digest/cover.png"/>
+    <itunes:category text="News"/>
+    <item>
+      <title>June 16, 2026 — Export Controls, SpaceX &amp; the Middle East Deal</title>
+      <description>Your bookmarks, read aloud and woven by theme.
+
+Sources:
+• Andrew Curran: Dear Mr. Amodei:
+
+The Bureau of Industry and Security (BIS),… — https://x.com/AndrewCurran_/status/2066988824182624269
+• Charlie Bullock: So, I've now read the "is informed" letter that Lutnick sent… — https://x.com/CharlieBull0ck/status/2066987766924128464
+• Anthropic: Our latest economic research introduces a framework for trac… — https://x.com/AnthropicAI/status/2066969532380721386
+• Marc Andreessen 🇺🇸: SpaceX &amp; the Sentient Sun  — https://x.com/pmarca/status/2066523671456579828
+• Farzad 🇺🇸 🇮🇷: My theory is that the American empire is JUST getting starte… — https://x.com/farzyness/status/2066336381429797375
+• Amit Segal: “What we know is this agreement is going to make Israel safe… — https://x.com/AmitSegal/status/2066879462315085855
+• Peter Yang: Every FREE agentic engineering tool from the best AI builder… — https://x.com/petergyang/status/2066309730138726752
+
+Chapters:
+00:00  Intro
+00:27  The Anthropic Export-Control Earthquake
+07:51  SpaceX, Mars &amp; American Power
+16:31  The Middle East Deal
+21:19  One for the Builders</description>
+      <content:encoded><![CDATA[Your bookmarks, read aloud and woven by theme.
+
+Sources:
+• Andrew Curran: Dear Mr. Amodei:
+
+The Bureau of Industry and Security (BIS),… — https://x.com/AndrewCurran_/status/2066988824182624269
+• Charlie Bullock: So, I've now read the "is informed" letter that Lutnick sent… — https://x.com/CharlieBull0ck/status/2066987766924128464
+• Anthropic: Our latest economic research introduces a framework for trac… — https://x.com/AnthropicAI/status/2066969532380721386
+• Marc Andreessen 🇺🇸: SpaceX & the Sentient Sun  — https://x.com/pmarca/status/2066523671456579828
+• Farzad 🇺🇸 🇮🇷: My theory is that the American empire is JUST getting starte… — https://x.com/farzyness/status/2066336381429797375
+• Amit Segal: “What we know is this agreement is going to make Israel safe… — https://x.com/AmitSegal/status/2066879462315085855
+• Peter Yang: Every FREE agentic engineering tool from the best AI builder… — https://x.com/petergyang/status/2066309730138726752
+
+Chapters:
+00:00  Intro
+00:27  The Anthropic Export-Control Earthquake
+07:51  SpaceX, Mars & American Power
+16:31  The Middle East Deal
+21:19  One for the Builders]]></content:encoded>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/2026-06-16/episode.mp3" length="21799223" type="audio/mpeg"/>
+      <guid isPermaLink="false">bookmarks-digest-2026-06-16</guid>
+      <pubDate>Tue, 16 Jun 2026 17:30:00 -0400</pubDate>
+      <itunes:duration>1357</itunes:duration>
+      <itunes:image href="https://jonathan-wachter.github.io/bookmarks-digest/cover.png"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
