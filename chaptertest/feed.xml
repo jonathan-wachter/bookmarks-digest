@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>CHAPTER TEST — Bookmarks Digest</title>
+    <link>https://jonathan-wachter.github.io/bookmarks-digest/chaptertest/</link>
+    <language>en-us</language>
+    <description>8 numbered chapter-encoding experiments. Tell me which TEST NN shows clickable chapters in Overcast.</description>
+    <itunes:author>Chapter Test</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://jonathan-wachter.github.io/bookmarks-digest/cover.png"/>
+    <itunes:category text="Technology"/>
+    <item>
+      <title>TEST 01 — CONTROL: concat -c copy + ID3v2.3 + links (current broken method)</title>
+      <description>CONTROL: concat -c copy + ID3v2.3 + links (current broken method). 3 chapters at 0:00 / 0:30 / 1:00.</description>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/chaptertest/t01.mp3" length="723301" type="audio/mpeg"/>
+      <guid isPermaLink="false">chtest-01</guid>
+      <pubDate>Tue, 16 Jun 2026 19:59:00 -0400</pubDate>
+      <itunes:duration>90</itunes:duration>
+    </item>
+    <item>
+      <title>TEST 02 — clean re-encode + ID3v2.3, NO link frames</title>
+      <description>clean re-encode + ID3v2.3, NO link frames. 3 chapters at 0:00 / 0:30 / 1:00.</description>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/chaptertest/t02.mp3" length="724017" type="audio/mpeg"/>
+      <guid isPermaLink="false">chtest-02</guid>
+      <pubDate>Tue, 16 Jun 2026 19:58:00 -0400</pubDate>
+      <itunes:duration>90</itunes:duration>
+    </item>
+    <item>
+      <title>TEST 03 — clean re-encode + ID3v2.3 + links</title>
+      <description>clean re-encode + ID3v2.3 + links. 3 chapters at 0:00 / 0:30 / 1:00.</description>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/chaptertest/t03.mp3" length="724017" type="audio/mpeg"/>
+      <guid isPermaLink="false">chtest-03</guid>
+      <pubDate>Tue, 16 Jun 2026 19:57:00 -0400</pubDate>
+      <itunes:duration>90</itunes:duration>
+    </item>
+    <item>
+      <title>TEST 04 — clean re-encode + ID3v2.4 + links</title>
+      <description>clean re-encode + ID3v2.4 + links. 3 chapters at 0:00 / 0:30 / 1:00.</description>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/chaptertest/t04.mp3" length="724017" type="audio/mpeg"/>
+      <guid isPermaLink="false">chtest-04</guid>
+      <pubDate>Tue, 16 Jun 2026 19:56:00 -0400</pubDate>
+      <itunes:duration>90</itunes:duration>
+    </item>
+    <item>
+      <title>TEST 05 — clean re-encode + ID3v2.3 + links, NO CTOC table</title>
+      <description>clean re-encode + ID3v2.3 + links, NO CTOC table. 3 chapters at 0:00 / 0:30 / 1:00.</description>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/chaptertest/t05.mp3" length="724017" type="audio/mpeg"/>
+      <guid isPermaLink="false">chtest-05</guid>
+      <pubDate>Tue, 16 Jun 2026 19:55:00 -0400</pubDate>
+      <itunes:duration>90</itunes:duration>
+    </item>
+    <item>
+      <title>TEST 06 — clean re-encode + ffmpeg-written chapters (not mutagen)</title>
+      <description>clean re-encode + ffmpeg-written chapters (not mutagen). 3 chapters at 0:00 / 0:30 / 1:00.</description>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/chaptertest/t06.mp3" length="720822" type="audio/mpeg"/>
+      <guid isPermaLink="false">chtest-06</guid>
+      <pubDate>Tue, 16 Jun 2026 19:54:00 -0400</pubDate>
+      <itunes:duration>90</itunes:duration>
+    </item>
+    <item>
+      <title>TEST 07 — clean re-encode, NO embedded — podcast:chapters JSON only</title>
+      <description>clean re-encode, NO embedded — podcast:chapters JSON only. 3 chapters at 0:00 / 0:30 / 1:00.</description>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/chaptertest/t07.mp3" length="724017" type="audio/mpeg"/>
+      <podcast:chapters url="https://jonathan-wachter.github.io/bookmarks-digest/chaptertest/t07.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">chtest-07</guid>
+      <pubDate>Tue, 16 Jun 2026 19:53:00 -0400</pubDate>
+      <itunes:duration>90</itunes:duration>
+    </item>
+    <item>
+      <title>TEST 08 — M4A/AAC + ffmpeg chapters (different container)</title>
+      <description>M4A/AAC + ffmpeg chapters (different container). 3 chapters at 0:00 / 0:30 / 1:00.</description>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/chaptertest/t08.m4a" length="756475" type="audio/mp4"/>
+      <guid isPermaLink="false">chtest-08</guid>
+      <pubDate>Tue, 16 Jun 2026 19:52:00 -0400</pubDate>
+      <itunes:duration>90</itunes:duration>
+    </item>
+  </channel>
+</rss>

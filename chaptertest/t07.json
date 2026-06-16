@@ -1,0 +1,20 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Chapter One \u2014 Intro",
+      "url": "https://x.com/pmarca"
+    },
+    {
+      "startTime": 30.0,
+      "title": "Chapter Two \u2014 Middle",
+      "url": "https://x.com/pmarca"
+    },
+    {
+      "startTime": 60.0,
+      "title": "Chapter Three \u2014 End",
+      "url": "https://x.com/pmarca"
+    }
+  ]
+}
