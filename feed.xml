@@ -6,94 +6,116 @@
     <title>Jonathan's Bookmarks Digest</title>
     <link>https://jonathan-wachter.github.io/bookmarks-digest</link>
     <language>en-us</language>
-    <description>A private, daily-ish audio digest of the things Jonathan bookmarks on X — read aloud in full and woven by theme, with clickable chapters per article.</description>
+    <description>A private, daily-ish audio digest of what Jonathan saves to read — X bookmarks, web articles, and the occasional paper — read aloud in full and woven by theme, with clickable chapters per item.</description>
     <itunes:author>Bookmarks Digest</itunes:author>
-    <itunes:summary>A private, daily-ish audio digest of the things Jonathan bookmarks on X — read aloud in full and woven by theme, with clickable chapters per article.</itunes:summary>
+    <itunes:summary>A private, daily-ish audio digest of what Jonathan saves to read — X bookmarks, web articles, and the occasional paper — read aloud in full and woven by theme, with clickable chapters per item.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://jonathan-wachter.github.io/bookmarks-digest/cover.png"/>
     <itunes:category text="News"/>
     <item>
-      <title>June 16, 2026 — The Full Firehose</title>
-      <description>The full edition — your bookmarks read in full, woven by theme.
+      <title>June 17, 2026 — The Fable Files</title>
+      <description>Your bookmarks for the day, read in full and woven by theme.
 
 Sources:
-• Andrew Curran: Dear Mr. Amodei: The Bureau of Industry and… — https://x.com/AndrewCurran_/status/2066988824182624269
-• Charlie Bullock: So, I've now read the "is informed" letter… — https://x.com/CharlieBull0ck/status/2066987766924128464
-• Anthropic: Our latest economic research introduces a framework for… — https://x.com/AnthropicAI/status/2066969532380721386
-    ↳ linked: Agentic coding and persistent returns to expertise — https://www.anthropic.com/research/claude-code-expertise
-• Dean W. Ball: AI policy is a really poignant example of… — https://x.com/deanwball/status/2066501893832966601
-• Dean W. Ball: Precisely as I predicted, the recent cyber EO,… — https://x.com/deanwball/status/2066499769833341419
-• Marc Andreessen 🇺🇸: SpaceX &amp; the Sentient Sun  — https://x.com/pmarca/status/2066523671456579828
-• Farzad 🇺🇸 🇮🇷: My theory is that the American empire is… — https://x.com/farzyness/status/2066336381429797375
-• Amit Segal: “What we know is this agreement is going… — https://x.com/AmitSegal/status/2066879462315085855
-    ↳ linked: Iran Deal: Good News and Vance News — https://newsletter.amitsegal.net/p/its-noon-in-israel-iran-deal-good
-• Amit Segal: After Donald Trump declared the agreement finalized last… — https://x.com/AmitSegal/status/2066503239076372653
-    ↳ linked: Total Surrender — https://amitsegal.substack.com/p/its-noon-in-israel-total-surrender
-• Nadav Pollak: This media personality in Israel is very close… — https://x.com/NadavPollak/status/2066323880109584737
-• Yaakov Katz: Whatever the details of this deal ultimately are,… — https://x.com/yaakovkatz/status/2066469219978350658
-• גיא עזריאל Guy Azriel: 🚨🇮🇱 A first clear message from Israel after… — https://x.com/GuyAz/status/2066414855460999600
-• Peter Yang: Every FREE agentic engineering tool from the best… — https://x.com/petergyang/status/2066309730138726752
-• David Wolpe: I long ago swore off angry reviews. But… — https://x.com/RabbiWolpe/status/2066637117426696593
+• Dean W. Ball: @segyges Because a ruling that protects AI under… — https://x.com/deanwball/status/2067054232411222197
+• Neil Chilson ⤴️⬆️🆙📈 🚀: New reporting on the Fable/Mythos story links last… — https://x.com/neil_chilson/status/2066933825850994877
+• David Sacks: Some recent articles have created a misleading narrative… — https://x.com/DavidSacks/status/2067270499458027832
+• rahul: 1. as a mental model it is more… — https://x.com/rahulgs/status/2067257255825686880
+• Tyler Cowen: Tyler Cowen: A Dangerous Turn in AI Regulation — https://www.thefp.com/p/tyler-cowen-a-dangerous-turn-in-ai
+    ↳ linked: Tyler Cowen: A Dangerous Turn in AI Regulation — https://www.thefp.com/p/tyler-cowen-a-dangerous-turn-in-ai
+• Zvi Mowshowitz: The Once And Future Fable #2 — https://thezvi.substack.com/p/the-once-and-future-fable-2
+    ↳ linked: The Once And Future Fable #2 — https://thezvi.substack.com/p/the-once-and-future-fable-2
+• James Pethokoukis ⏩️⤴️: Meet the world’s top AI-pilled economists "This year… — https://x.com/JimPethokoukis/status/2066661774028357724
+• Ethan Mollick: Big issue with AI strategies at big companies… — https://x.com/emollick/status/2067344183870836985
+• Ethan Mollick: What it feels like to work with Mythos — https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos
+    ↳ linked: What it feels like to work with Mythos — https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos
+• signüll: meta is narratively homeless. they own the largest… — https://x.com/signulll/status/2067279134632325535
+• Rolfe Winkler: Exclusive | Apple to Raise Prices Due to Memory Chip Crunch, Tim Cook Says — https://www.wsj.com/tech/apple-price-increases-memory-supply-199845b1?mod=WSJ_home_mediumtopper_pos_1
+    ↳ linked: Exclusive | Apple to Raise Prices Due to Memory Chip Crunch, Tim Cook Says — https://www.wsj.com/tech/apple-price-increases-memory-supply-199845b1?mod=WSJ_home_mediumtopper_pos_1
+• Noah Smith: Will China, Inc. be zombified? — https://www.noahpinion.blog/p/will-china-inc-be-zombified
+    ↳ linked: Will China, Inc. be zombified? — https://www.noahpinion.blog/p/will-china-inc-be-zombified
+• Noah Smith: Are you finally ready to admit it's the phones? — https://www.noahpinion.blog/p/are-you-finally-ready-to-admit-its
+    ↳ linked: Are you finally ready to admit it's the phones? — https://www.noahpinion.blog/p/are-you-finally-ready-to-admit-its
+• Seth Frantzman: Israel's Smart Shooter to Supply additional SMASH Hopper… — https://x.com/sfrantzman/status/2066933117932200219
+• Visegrád 24: 🇫🇷 A French woman who was sexually assaulted… — https://x.com/visegrad24/status/2067228528152601082
+• Reuven Goldstein: Born in 1824 to a Jewish family in… — https://x.com/curatorWH/status/2067008622757028298
+• Reuven Goldstein: Albert Einstein received a historic ticker tape parade… — https://x.com/curatorWH/status/2067278955921723589
+• download.ssrn.com: https://download.ssrn.com/2026/6/5/6663038.pdf?response-cont — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6663038
 
 Chapters:
 00:00  Intro
-00:26  Andrew Curran — Dear Mr. Amodei: The Bureau of Industry and…
-04:50  Charlie Bullock — So, I've now read the "is informed" letter…
-07:34  Anthropic — Our latest economic research introduces a framework for…
-38:44  Dean W. Ball — AI policy is a really poignant example of…
-39:50  Dean W. Ball — Precisely as I predicted, the recent cyber EO,…
-42:30  Marc Andreessen 🇺🇸 — SpaceX &amp; the Sentient Sun 
-92:44  Farzad 🇺🇸 🇮🇷 — My theory is that the American empire is…
-95:17  Amit Segal — “What we know is this agreement is going…
-116:02  Amit Segal — After Donald Trump declared the agreement finalized last…
-130:32  Nadav Pollak — This media personality in Israel is very close…
-130:55  Yaakov Katz — Whatever the details of this deal ultimately are,…
-132:04  גיא עזריאל Guy Azriel — 🚨🇮🇱 A first clear message from Israel after…
-134:19  Peter Yang — Every FREE agentic engineering tool from the best…
-135:32  David Wolpe — I long ago swore off angry reviews. But…</description>
-      <content:encoded><![CDATA[The full edition — your bookmarks read in full, woven by theme.
+00:45  Dean W. Ball — @segyges Because a ruling that protects AI under…
+01:10  Neil Chilson — New reporting on the Fable/Mythos story links last…
+01:33  David Sacks — Some recent articles have created a misleading narrative…
+05:45  Rahul — A mental model for the new models
+10:21  Tyler Cowen — Tyler Cowen: A Dangerous Turn in AI Regulation
+19:57  Zvi Mowshowitz — The Once And Future Fable #2
+64:04  James Pethokoukis — Meet the world’s top AI-pilled economists "This year…
+64:29  Ethan Mollick — Big issue with AI strategies at big companies…
+64:53  Ethan Mollick — What it feels like to work with Mythos
+77:01  signüll — meta is narratively homeless. they own the largest…
+77:44  Rolfe Winkler — Exclusive | Apple to Raise Prices Due to Memory Chip Crunch, Tim Cook Says
+87:30  Noah Smith — Will China, Inc. be zombified?
+108:19  Noah Smith — Are you finally ready to admit it's the phones?
+120:22  Seth Frantzman — Israel's Smart Shooter to Supply additional SMASH Hopper…
+120:48  Visegrád 24 — A French woman who was sexually assaulted…
+121:21  Reuven Goldstein — Born in 1824 to a Jewish family in…
+121:42  Reuven Goldstein — Albert Einstein received a historic ticker tape parade…
+122:05  AI &amp; Productivity — a new paper (essay)</description>
+      <content:encoded><![CDATA[Your bookmarks for the day, read in full and woven by theme.
 
 Sources:
-• Andrew Curran: Dear Mr. Amodei: The Bureau of Industry and… — https://x.com/AndrewCurran_/status/2066988824182624269
-• Charlie Bullock: So, I've now read the "is informed" letter… — https://x.com/CharlieBull0ck/status/2066987766924128464
-• Anthropic: Our latest economic research introduces a framework for… — https://x.com/AnthropicAI/status/2066969532380721386
-    ↳ linked: Agentic coding and persistent returns to expertise — https://www.anthropic.com/research/claude-code-expertise
-• Dean W. Ball: AI policy is a really poignant example of… — https://x.com/deanwball/status/2066501893832966601
-• Dean W. Ball: Precisely as I predicted, the recent cyber EO,… — https://x.com/deanwball/status/2066499769833341419
-• Marc Andreessen 🇺🇸: SpaceX & the Sentient Sun  — https://x.com/pmarca/status/2066523671456579828
-• Farzad 🇺🇸 🇮🇷: My theory is that the American empire is… — https://x.com/farzyness/status/2066336381429797375
-• Amit Segal: “What we know is this agreement is going… — https://x.com/AmitSegal/status/2066879462315085855
-    ↳ linked: Iran Deal: Good News and Vance News — https://newsletter.amitsegal.net/p/its-noon-in-israel-iran-deal-good
-• Amit Segal: After Donald Trump declared the agreement finalized last… — https://x.com/AmitSegal/status/2066503239076372653
-    ↳ linked: Total Surrender — https://amitsegal.substack.com/p/its-noon-in-israel-total-surrender
-• Nadav Pollak: This media personality in Israel is very close… — https://x.com/NadavPollak/status/2066323880109584737
-• Yaakov Katz: Whatever the details of this deal ultimately are,… — https://x.com/yaakovkatz/status/2066469219978350658
-• גיא עזריאל Guy Azriel: 🚨🇮🇱 A first clear message from Israel after… — https://x.com/GuyAz/status/2066414855460999600
-• Peter Yang: Every FREE agentic engineering tool from the best… — https://x.com/petergyang/status/2066309730138726752
-• David Wolpe: I long ago swore off angry reviews. But… — https://x.com/RabbiWolpe/status/2066637117426696593
+• Dean W. Ball: @segyges Because a ruling that protects AI under… — https://x.com/deanwball/status/2067054232411222197
+• Neil Chilson ⤴️⬆️🆙📈 🚀: New reporting on the Fable/Mythos story links last… — https://x.com/neil_chilson/status/2066933825850994877
+• David Sacks: Some recent articles have created a misleading narrative… — https://x.com/DavidSacks/status/2067270499458027832
+• rahul: 1. as a mental model it is more… — https://x.com/rahulgs/status/2067257255825686880
+• Tyler Cowen: Tyler Cowen: A Dangerous Turn in AI Regulation — https://www.thefp.com/p/tyler-cowen-a-dangerous-turn-in-ai
+    ↳ linked: Tyler Cowen: A Dangerous Turn in AI Regulation — https://www.thefp.com/p/tyler-cowen-a-dangerous-turn-in-ai
+• Zvi Mowshowitz: The Once And Future Fable #2 — https://thezvi.substack.com/p/the-once-and-future-fable-2
+    ↳ linked: The Once And Future Fable #2 — https://thezvi.substack.com/p/the-once-and-future-fable-2
+• James Pethokoukis ⏩️⤴️: Meet the world’s top AI-pilled economists "This year… — https://x.com/JimPethokoukis/status/2066661774028357724
+• Ethan Mollick: Big issue with AI strategies at big companies… — https://x.com/emollick/status/2067344183870836985
+• Ethan Mollick: What it feels like to work with Mythos — https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos
+    ↳ linked: What it feels like to work with Mythos — https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos
+• signüll: meta is narratively homeless. they own the largest… — https://x.com/signulll/status/2067279134632325535
+• Rolfe Winkler: Exclusive | Apple to Raise Prices Due to Memory Chip Crunch, Tim Cook Says — https://www.wsj.com/tech/apple-price-increases-memory-supply-199845b1?mod=WSJ_home_mediumtopper_pos_1
+    ↳ linked: Exclusive | Apple to Raise Prices Due to Memory Chip Crunch, Tim Cook Says — https://www.wsj.com/tech/apple-price-increases-memory-supply-199845b1?mod=WSJ_home_mediumtopper_pos_1
+• Noah Smith: Will China, Inc. be zombified? — https://www.noahpinion.blog/p/will-china-inc-be-zombified
+    ↳ linked: Will China, Inc. be zombified? — https://www.noahpinion.blog/p/will-china-inc-be-zombified
+• Noah Smith: Are you finally ready to admit it's the phones? — https://www.noahpinion.blog/p/are-you-finally-ready-to-admit-its
+    ↳ linked: Are you finally ready to admit it's the phones? — https://www.noahpinion.blog/p/are-you-finally-ready-to-admit-its
+• Seth Frantzman: Israel's Smart Shooter to Supply additional SMASH Hopper… — https://x.com/sfrantzman/status/2066933117932200219
+• Visegrád 24: 🇫🇷 A French woman who was sexually assaulted… — https://x.com/visegrad24/status/2067228528152601082
+• Reuven Goldstein: Born in 1824 to a Jewish family in… — https://x.com/curatorWH/status/2067008622757028298
+• Reuven Goldstein: Albert Einstein received a historic ticker tape parade… — https://x.com/curatorWH/status/2067278955921723589
+• download.ssrn.com: https://download.ssrn.com/2026/6/5/6663038.pdf?response-cont — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6663038
 
 Chapters:
 00:00  Intro
-00:26  Andrew Curran — Dear Mr. Amodei: The Bureau of Industry and…
-04:50  Charlie Bullock — So, I've now read the "is informed" letter…
-07:34  Anthropic — Our latest economic research introduces a framework for…
-38:44  Dean W. Ball — AI policy is a really poignant example of…
-39:50  Dean W. Ball — Precisely as I predicted, the recent cyber EO,…
-42:30  Marc Andreessen 🇺🇸 — SpaceX & the Sentient Sun 
-92:44  Farzad 🇺🇸 🇮🇷 — My theory is that the American empire is…
-95:17  Amit Segal — “What we know is this agreement is going…
-116:02  Amit Segal — After Donald Trump declared the agreement finalized last…
-130:32  Nadav Pollak — This media personality in Israel is very close…
-130:55  Yaakov Katz — Whatever the details of this deal ultimately are,…
-132:04  גיא עזריאל Guy Azriel — 🚨🇮🇱 A first clear message from Israel after…
-134:19  Peter Yang — Every FREE agentic engineering tool from the best…
-135:32  David Wolpe — I long ago swore off angry reviews. But…]]></content:encoded>
-      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/2026-06-16/episode.mp3" length="65417779" type="audio/mpeg"/>
-      <podcast:chapters url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/2026-06-16/chapters.json" type="application/json+chapters"/>
-      <guid isPermaLink="false">bookmarks-digest-2026-06-16-full</guid>
-      <pubDate>Tue, 16 Jun 2026 18:00:00 -0400</pubDate>
-      <itunes:duration>8161</itunes:duration>
+00:45  Dean W. Ball — @segyges Because a ruling that protects AI under…
+01:10  Neil Chilson — New reporting on the Fable/Mythos story links last…
+01:33  David Sacks — Some recent articles have created a misleading narrative…
+05:45  Rahul — A mental model for the new models
+10:21  Tyler Cowen — Tyler Cowen: A Dangerous Turn in AI Regulation
+19:57  Zvi Mowshowitz — The Once And Future Fable #2
+64:04  James Pethokoukis — Meet the world’s top AI-pilled economists "This year…
+64:29  Ethan Mollick — Big issue with AI strategies at big companies…
+64:53  Ethan Mollick — What it feels like to work with Mythos
+77:01  signüll — meta is narratively homeless. they own the largest…
+77:44  Rolfe Winkler — Exclusive | Apple to Raise Prices Due to Memory Chip Crunch, Tim Cook Says
+87:30  Noah Smith — Will China, Inc. be zombified?
+108:19  Noah Smith — Are you finally ready to admit it's the phones?
+120:22  Seth Frantzman — Israel's Smart Shooter to Supply additional SMASH Hopper…
+120:48  Visegrád 24 — A French woman who was sexually assaulted…
+121:21  Reuven Goldstein — Born in 1824 to a Jewish family in…
+121:42  Reuven Goldstein — Albert Einstein received a historic ticker tape parade…
+122:05  AI & Productivity — a new paper (essay)]]></content:encoded>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/2026-06-17/episode.mp3" length="69196701" type="audio/mpeg"/>
+      <podcast:chapters url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/2026-06-17/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">bookmarks-digest-2026-06-17-full</guid>
+      <pubDate>Wed, 17 Jun 2026 18:00:00 -0400</pubDate>
+      <itunes:duration>8633</itunes:duration>
       <itunes:image href="https://jonathan-wachter.github.io/bookmarks-digest/cover.png"/>
       <itunes:explicit>false</itunes:explicit>
     </item>
