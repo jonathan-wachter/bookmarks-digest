@@ -1,0 +1,41 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "ElevenLabs \u2014 Navya \u00b7 Indian female"
+    },
+    {
+      "startTime": 32.1,
+      "title": "Kokoro \u2014 hf_alpha \u00b7 Indian female"
+    },
+    {
+      "startTime": 60.0,
+      "title": "Kokoro \u2014 hf_beta \u00b7 Indian female"
+    },
+    {
+      "startTime": 85.2,
+      "title": "Apple \u2014 Tara \u00b7 Indian female"
+    },
+    {
+      "startTime": 111.1,
+      "title": "ElevenLabs \u2014 Alice \u00b7 British female"
+    },
+    {
+      "startTime": 142.8,
+      "title": "ElevenLabs \u2014 Lily \u00b7 British female"
+    },
+    {
+      "startTime": 175.3,
+      "title": "Kokoro \u2014 bf_emma \u00b7 British female"
+    },
+    {
+      "startTime": 199.4,
+      "title": "Kokoro \u2014 bf_isabella \u00b7 British female"
+    },
+    {
+      "startTime": 224.4,
+      "title": "Apple \u2014 Shelley \u00b7 British female"
+    }
+  ]
+}

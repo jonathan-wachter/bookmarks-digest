@@ -8,11 +8,23 @@
     <language>en-us</language>
     <description>A private, daily-ish audio digest of what Jonathan saves to read — X bookmarks, web articles, and the occasional paper — read aloud in full and woven by theme, with clickable chapters per item.</description>
     <itunes:author>Bookmarks Digest</itunes:author>
-    <itunes:summary>A private, daily-ish audio digest of what Jonathan saves to read — X bookmarks, web articles, and the occasional paper — read aloud in full and woven by theme, with clickable chapters per item.</itunes:summary>
+    <itunes:summary>Your reading, read aloud and chaptered.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://jonathan-wachter.github.io/bookmarks-digest/cover.png"/>
     <itunes:category text="News"/>
+    <item>
+      <title>Voice Auditions — pick your cast</title>
+      <description>Same sample read by each candidate voice — chapter title names the voice. Pick: two distinct INDIAN FEMALES (narrator + main reader) and one POSH BRITISH FEMALE (block-quotes). Providers: ElevenLabs, Kokoro (local/on-device), Apple.</description>
+      <content:encoded><![CDATA[Same sample read by each candidate voice — chapter title names the voice. Pick: two distinct INDIAN FEMALES (narrator + main reader) and one POSH BRITISH FEMALE (block-quotes). Providers: ElevenLabs, Kokoro (local/on-device), Apple.]]></content:encoded>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/auditions/episode.mp3" length="2061280" type="audio/mpeg"/>
+      <podcast:chapters url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/auditions/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">bookmarks-digest-auditions-1</guid>
+      <pubDate>Wed, 17 Jun 2026 21:30:00 -0400</pubDate>
+      <itunes:duration>250</itunes:duration>
+      <itunes:image href="https://jonathan-wachter.github.io/bookmarks-digest/cover.png"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>June 17, 2026 — The Fable Files</title>
       <description>Your bookmarks for the day, read in full and woven by theme.
