@@ -14,6 +14,18 @@
     <itunes:image href="https://jonathan-wachter.github.io/bookmarks-digest/cover.png"/>
     <itunes:category text="News"/>
     <item>
+      <title>Voice Auditions Round 3 — local cloning vs ElevenLabs</title>
+      <description>ROUND 3 — LOCAL VOICE CLONING. 01 Chatterbox &amp; 02 XTTS-v2 both run on the M1 Max (free, no cloud) and clone 03, a CC-BY IIT-Madras Indian-English female reference. Judge TWO things: (a) does the cloning naturalness rival ElevenLabs? and (b) the voice CHARACTER is swappable — this is just a generic corpus reader used to prove the tech; we can clone any licensed voice you prefer. A/B against EL Navya in the Round-1 audition.</description>
+      <content:encoded><![CDATA[ROUND 3 — LOCAL VOICE CLONING. 01 Chatterbox & 02 XTTS-v2 both run on the M1 Max (free, no cloud) and clone 03, a CC-BY IIT-Madras Indian-English female reference. Judge TWO things: (a) does the cloning naturalness rival ElevenLabs? and (b) the voice CHARACTER is swappable — this is just a generic corpus reader used to prove the tech; we can clone any licensed voice you prefer. A/B against EL Navya in the Round-1 audition.]]></content:encoded>
+      <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/auditions3/episode.mp3" length="787519" type="audio/mpeg"/>
+      <podcast:chapters url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/auditions3/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">bookmarks-digest-auditions-3</guid>
+      <pubDate>Thu, 18 Jun 2026 14:00:00 -0400</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <itunes:image href="https://jonathan-wachter.github.io/bookmarks-digest/cover.png"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Voice Auditions Round 2 — pick your cast</title>
       <description>ROUND 2. Same sample in each candidate voice; the chapter title gives the NUMBER + voice + cost. CAST: pick ONE INDIAN FEMALE (01-04) for the MAIN READ, and TWO DISTINCT POSH BRITISH FEMALES (07-11) — one for section headers/narration, one for block-quotes. FREE = Kokoro (on-device); ~$2/ep = Polly neural; ~$4/ep = Polly generative. Compact Apple dropped.</description>
       <content:encoded><![CDATA[ROUND 2. Same sample in each candidate voice; the chapter title gives the NUMBER + voice + cost. CAST: pick ONE INDIAN FEMALE (01-04) for the MAIN READ, and TWO DISTINCT POSH BRITISH FEMALES (07-11) — one for section headers/narration, one for block-quotes. FREE = Kokoro (on-device); ~$2/ep = Polly neural; ~$4/ep = Polly generative. Compact Apple dropped.]]></content:encoded>

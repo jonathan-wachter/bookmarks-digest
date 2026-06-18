@@ -1,0 +1,17 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "01 \u00b7 Chatterbox clone \u2014 Indian F \u00b7 LOCAL, free, MIT (best, ~1x real-time)"
+    },
+    {
+      "startTime": 36.6,
+      "title": "02 \u00b7 XTTS-v2 clone \u2014 Indian F \u00b7 LOCAL, free (backup, slower/CPU)"
+    },
+    {
+      "startTime": 75.2,
+      "title": "03 \u00b7 The SOURCE voice these clone (IIT-Madras corpus, CC-BY)"
+    }
+  ]
+}
