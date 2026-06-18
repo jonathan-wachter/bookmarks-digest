@@ -125,6 +125,7 @@ Chapters:
 122:05  AI & Productivity — a new paper (essay)]]></content:encoded>
       <enclosure url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/2026-06-17/episode.mp3" length="69196701" type="audio/mpeg"/>
       <podcast:chapters url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/2026-06-17/chapters.json" type="application/json+chapters"/>
+      <podcast:transcript url="https://jonathan-wachter.github.io/bookmarks-digest/episodes/2026-06-17/transcript.vtt" type="text/vtt"/>
       <guid isPermaLink="false">bookmarks-digest-2026-06-17-full</guid>
       <pubDate>Wed, 17 Jun 2026 18:00:00 -0400</pubDate>
       <itunes:duration>8633</itunes:duration>

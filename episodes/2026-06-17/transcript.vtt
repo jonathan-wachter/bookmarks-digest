@@ -1,0 +1,3028 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.389
+Welcome to your Bookmarks Digest for Wednesday, June 17, 2026.
+
+00:00:04.389 --> 00:00:09.273
+One story bends almost everything you saved today: on Friday the U.S.
+
+00:00:09.273 --> 00:00:16.068
+government forced Anthropic to pull its most powerful models, Fable 5 and Mythos, off the table.
+
+00:00:16.068 --> 00:00:39.143
+So we open there — the economics, the politics, and a builder's view — then move to what it's like to actually work with these models, then markets and tech, attention and society, a turn through geopolitics and history, and we close with the long read: a new paper putting a dollar figure on what AI is doing to productivity.
+
+00:00:39.143 --> 00:00:42.399
+Every word came from something you bookmarked.
+
+00:00:42.399 --> 00:00:44.664
+Use the chapters to jump around.
+
+00:00:44.664 --> 00:00:45.372
+Settle in.
+
+00:00:45.372 --> 00:00:52.414
+We open where the whole day points: Friday's government order pulling Anthropic's Fable 5 and Mythos.
+
+00:00:52.414 --> 00:00:54.087
+A few short takes first.
+
+00:00:54.087 --> 00:00:59.038
+Dean Ball, on whether AI deserves protection under the First Amendment.
+
+00:00:59.038 --> 00:01:10.264
+segyges Because a ruling that protects AI under the first amendment would be disastrous for the company’s broader regulatory agenda, would be my uninformed guess
+
+00:01:10.264 --> 00:01:15.631
+Neil Chilson flags the latest reporting on the Fable and Mythos story.
+
+00:01:15.631 --> 00:01:24.678
+New reporting on the Fable/Mythos story links last Friday’s export-control decision to the June 2 AI Cybersecurity EO.
+
+00:01:24.678 --> 00:01:28.742
+It also bears out one warning I raised about that EO.
+
+00:01:28.742 --> 00:01:32.959
+Here’s a short “I regret to report I was right” thread.
+
+00:01:32.959 --> 00:01:33.112
+1/
+
+00:01:33.112 --> 00:01:39.680
+The administration's AI czar, David Sacks, pushes back on what he calls a misleading narrative.
+
+00:01:39.680 --> 00:01:48.806
+Some recent articles have created a misleading narrative that I did not take Mythos seriously or tried to downplay the cyber threat.
+
+00:01:48.806 --> 00:01:58.140
+This is based on egregious cherry-picking of my comments and (since the real target is the Trump Administration) needs to be corrected.
+
+00:01:58.140 --> 00:02:18.398
+When Mythos Preview first launched, I pointed out that Anthropic has a history of scare tactics, but then immediately went on to say that “we have no choice but to take this seriously” and that every CISO and IT department should move quickly to harden systems against AI-powered cyberattacks.
+
+00:02:18.398 --> 00:02:33.954
+Here’s what I said on the April 10 All-In Podcast (3 days after launch of Mythos Preview):
+
+“Anytime Anthropic is scaring people, you have to ask, is this a tactic, is this part of their chicken little routine, or is it real?
+
+00:02:33.954 --> 00:02:40.729
+With cyber, I actually would give them credit in this case and say, this is more on the real side.
+
+00:02:40.729 --> 00:02:48.611
+“It just makes sense that as the coding models become more and more capable, they’re more capable of finding bugs.
+
+00:02:48.611 --> 00:02:52.690
+That means they’re more capable of finding vulnerabilities.
+
+00:02:52.690 --> 00:02:59.811
+That means they’re more capable of stringing together multiple vulnerabilities and creating an exploit.
+
+00:02:59.811 --> 00:03:23.526
+“I do think that every company, or IT department, or CISO that is managing code bases should take this seriously and use the next few months to detect any dormant bugs or vulnerabilities and roll out patches.”
+
+I posted similar framing on X:
+
+On April 10: “The world has no choice but to take the cyber threat associated with Mythos seriously.
+
+00:03:23.526 --> 00:03:30.232
+But it’s hard to ignore that Anthropic has a history of scare tactics.” (With examples attached).
+
+00:03:30.232 --> 00:03:45.512
+On April 12: I noted that a growing number of people were wondering if Anthropic was the AI industry’s “boy who cried wolf,” and that the company would face a serious credibility problem if the threats didn’t materialize.
+
+00:03:45.512 --> 00:03:48.485
+These are the lines the articles highlight.
+
+00:03:48.485 --> 00:04:00.100
+They emphasize the “scare tactics” / “boy who cried wolf” critique while omitting the parts where I said the cyber threat itself was real and required immediate action.
+
+00:04:00.100 --> 00:04:10.263
+It is entirely possible to question a messenger’s track record while still treating the underlying risk as serious — and that’s exactly what I did.
+
+00:04:10.263 --> 00:04:22.224
+By the way, this view isn’t unique to me or even particularly controversial; highly respected tech commentator Ben Thompson recently made a similar critique about Anthropic.
+
+00:04:22.224 --> 00:04:33.632
+On April 30 I posted a more technical thread after tests by the AI Security Institute showed that GPT-5.5-Cyber performed similarly to Mythos:
+
+“Mythos is not magic.
+
+00:04:33.632 --> 00:04:35.499
+It’s not a doomsday device.
+
+00:04:35.499 --> 00:04:40.961
+It’s the first of many models that can automate cyber tasks (just like coding).
+
+00:04:40.961 --> 00:04:45.455
+… these models do not create vulnerabilities; they discover them.
+
+00:04:45.455 --> 00:04:47.736
+The bugs are already in the code.
+
+00:04:47.736 --> 00:04:52.645
+Using AI to discover and patch them will actually harden these systems.
+
+00:04:52.645 --> 00:04:58.867
+“The leap from pre-AI cyber to post-AI cyber means that there will be a big upgrade cycle.
+
+00:04:58.867 --> 00:05:03.845
+… it’s important that cyber defenders get access before cyber attackers.
+
+00:05:03.845 --> 00:05:16.843
+That process is already underway but needs to happen quickly.”
+
+My position remains consistent: We are on a shot clock until Mythos-level capabilities diffuse widely, including to non-U.S.
+
+00:05:16.843 --> 00:05:18.019
+/ Chinese models.
+
+00:05:18.019 --> 00:05:22.997
+We need defenders to find and patch vulnerabilities before that happens.
+
+00:05:22.997 --> 00:05:27.007
+This requires cooperation between government and industry.
+
+00:05:27.007 --> 00:05:35.303
+Unfortunately Anthropic’s needlessly confrontational posture toward the Administration has distracted from that mission.
+
+00:05:35.303 --> 00:05:42.424
+Policy debates have their time and place, but right now tangible defensive action is what matters most.
+
+00:05:42.424 --> 00:05:45.466
+I hope everyone moves forward on that basis.
+
+00:05:45.466 --> 00:05:51.140
+A builder's-eye view from Rahul, on how to think about this new class of models.
+
+00:05:51.140 --> 00:05:56.104
+I've lightly smoothed his thread for listening, but the ideas are his.
+
+00:05:56.104 --> 00:06:00.572
+Here's a mental model for the new class of models like Fable 5.
+
+00:06:00.572 --> 00:06:15.110
+It's more correct to think of them as English-to-code interpreters: they convert your idea into code, and into "correct" code, regardless of how complex the problem is or how large the resulting change is.
+
+00:06:15.110 --> 00:06:22.273
+Fable 5 will be the worst member of this new class — which is to say, they only get better from here.
+
+00:06:22.273 --> 00:06:28.584
+The size and complexity of a code change should be managed purely for the sake of review.
+
+00:06:28.584 --> 00:06:37.024
+Keep diffs small in high-risk areas — authentication, identity, data access, network access, anything that moves money.
+
+00:06:37.024 --> 00:06:51.065
+Allow large diffs for code that can be verified empirically: front-end work, back-end plumbing, code with no network or database access, and performance code whose behavior you can measure directly.
+
+00:06:51.065 --> 00:06:59.363
+The time it takes to ship software is now completely disconnected from the time it takes to produce the pull request.
+
+00:06:59.363 --> 00:07:07.235
+How long the work takes depends entirely on your ability to review and merge code while managing risk at scale.
+
+00:07:07.235 --> 00:07:18.085
+So solving the bottlenecks around review matters enormously — linters, testing, continuous integration, shadow-mode verification, empirical verification.
+
+00:07:18.085 --> 00:07:19.929
+Agency matters enormously.
+
+00:07:19.929 --> 00:07:26.170
+What are the biggest bottlenecks to speeding up the loop, and how do you eliminate them?
+
+00:07:26.170 --> 00:07:30.637
+What problems need solving, and when do they need to be solved?
+
+00:07:30.637 --> 00:07:34.183
+And what would it take to solve all of them today?
+
+00:07:34.183 --> 00:07:38.155
+Deep understanding of the full stack matters enormously.
+
+00:07:38.155 --> 00:07:40.566
+Which problems are worth pursuing?
+
+00:07:40.566 --> 00:07:44.537
+Is there a higher level of abstraction to address first?
+
+00:07:44.537 --> 00:07:49.927
+Should you hand the model the sub-sub-task, the sub-task, or the whole task?
+
+00:07:49.927 --> 00:07:59.288
+What are the major risks in a given change — in order of importance: security holes, then correctness holes, then performance holes?
+
+00:07:59.288 --> 00:08:04.040
+Is there a faster way to produce the data that lets you merge this?
+
+00:08:04.040 --> 00:08:08.366
+Should it run in shadow mode, in a sandbox, or behind a flag?
+
+00:08:08.366 --> 00:08:15.954
+You may not need to understand every line of logic, but understanding and managing risk matters enormously.
+
+00:08:15.954 --> 00:08:18.932
+The cost of complexity itself is changing.
+
+00:08:18.932 --> 00:08:25.741
+It might now be worth maintaining fifty percent more code to get a five percent performance win.
+
+00:08:25.741 --> 00:08:33.612
+Getting the right abstractions matters less, because large refactors are far less tedious than they used to be.
+
+00:08:33.612 --> 00:08:36.520
+Code-quality nitpicks become a huge drag.
+
+00:08:36.520 --> 00:08:45.243
+And very likely a much smarter model will be maintaining your code later — so it's worth taking on more technical debt now.
+
+00:08:45.243 --> 00:08:52.335
+Taking the time to hand-architect and rebuild systems today comes with an enormous cost in velocity.
+
+00:08:52.335 --> 00:08:56.590
+If it quacks like a duck and walks like a duck, it's a duck.
+
+00:08:56.590 --> 00:09:09.497
+For low-risk cases, it may be more sane to treat chunks of code — services, functions — as black boxes, the way we already treat neural networks: do full empirical verification only.
+
+00:09:09.497 --> 00:09:16.234
+Has the code produced correct outputs for the last ten, hundred, thousand, ten-thousand inputs?
+
+00:09:16.234 --> 00:09:23.042
+Can you quarantine this large piece of code, with no outbound access to the network or database?
+
+00:09:23.042 --> 00:09:29.921
+What happens when it's wrong — do you get hacked, do you crash, or is it merely an inconvenience?
+
+00:09:29.921 --> 00:09:32.829
+Is it internal-facing or external-facing?
+
+00:09:32.829 --> 00:09:35.878
+And what can you do to address those risks?
+
+00:09:35.878 --> 00:09:42.048
+Eventually, logical verification — line-by-line review — will come at an enormous cost.
+
+00:09:42.048 --> 00:09:49.140
+Save it for where it matters, and build systems that are tolerant of empirical verification instead.
+
+00:09:49.140 --> 00:09:53.537
+Is there a decorator that prevents database or network access?
+
+00:09:53.537 --> 00:09:58.217
+Correctness bugs are significantly easier to fix than access bugs.
+
+00:09:58.217 --> 00:10:02.827
+Finally, what are the rails that allow for even faster iteration?
+
+00:10:02.827 --> 00:10:11.266
+Code permissions can be opt-in — database writes, database reads, network egress and to where, access to personal data.
+
+00:10:11.266 --> 00:10:14.528
+How long does it take to get shadow-mode data?
+
+00:10:14.528 --> 00:10:17.649
+How many pull requests can you test at once?
+
+00:10:17.649 --> 00:10:21.691
+And what are the categories of diffs you're dealing with?
+
+00:10:21.691 --> 00:10:23.397
+Now the longer arguments.
+
+00:10:23.397 --> 00:10:31.584
+The economist Tyler Cowen, writing in The Free Press, on why the government's move is a dangerous turn in AI regulation.
+
+00:10:31.584 --> 00:10:34.109
+A new line has been crossed: The U.S.
+
+00:10:34.109 --> 00:10:39.499
+government has finally declared an AI model too dangerous for unrestricted use.
+
+00:10:39.499 --> 00:10:43.866
+It's the kind of move that could cripple AI progress in the U.S.
+
+00:10:43.866 --> 00:10:45.299
+and around the world.
+
+00:10:45.299 --> 00:10:56.966
+I had the chance to work with Anthropic's recently released, high-powered Fable 5 model, a version of Claude Mythos (I am a member of Anthropic's Economic Advisory Board).
+
+00:10:56.966 --> 00:10:59.218
+But now the plug has been yanked.
+
+00:10:59.218 --> 00:11:09.589
+A federal dispute with Anthropic led the government on Friday to order an export control that requires Anthropic to withhold the model from any non-U.S.
+
+00:11:09.589 --> 00:11:10.203
+citizens.
+
+00:11:10.203 --> 00:11:16.139
+The only practical way to comply with that order was to take down the model altogether.
+
+00:11:16.139 --> 00:11:27.943
+Federal officials believed that Fable 5 had been partially "jailbroken," meaning users had figured out how to use it for dangerous purposes that Anthropic meant to restrict.
+
+00:11:27.943 --> 00:11:40.975
+For example, Fable 5 was designed not to answer questions about biology (it kicked the queries to Opus 4.8, a less powerful model), so that it could not be used to design dangerous pathogens.
+
+00:11:40.975 --> 00:11:47.388
+Fable 5 also would refuse to cooperate if asked to build other, potentially powerful AI tools.
+
+00:11:47.388 --> 00:12:00.079
+It is debatable how dangerous a partially jailbroken Fable 5 could be, but the Trump administration expressed concern and claimed that Anthropic was unwilling to apply necessary patches.
+
+00:12:00.079 --> 00:12:07.516
+The company does not accept that version of events and claims that the model wasn't jailbroken to begin with.
+
+00:12:07.516 --> 00:12:13.179
+Yet the public need not bother too much with whose version of the story is correct.
+
+00:12:13.179 --> 00:12:20.207
+What matters is that people had started working with Fable 5, and now they cannot work with it anymore.
+
+00:12:20.207 --> 00:12:28.736
+Since Fable 5 had been released only a few days before the order, the interruption of service has been only a modest problem.
+
+00:12:28.736 --> 00:12:37.538
+But it is easy to see the problem of dependence here, especially as more and more systems are built around the leading AI models.
+
+00:12:37.538 --> 00:12:40.335
+The sad reality is that the more the U.S.
+
+00:12:40.335 --> 00:12:46.885
+government decides to deploy a kill switch, the less valuable American AI becomes as a platform.
+
+00:12:46.885 --> 00:12:54.459
+Companies will now think twice before relying too heavily on any single AI model that is outside their control.
+
+00:12:54.459 --> 00:13:04.761
+Perhaps more importantly, countries will think twice about their AI dependence, knowing that a mere dispute can lead to a major model being taken away.
+
+00:13:04.761 --> 00:13:07.354
+In such a world, the power of the U.S.
+
+00:13:07.354 --> 00:13:09.674
+government will grow considerably.
+
+00:13:09.674 --> 00:13:14.859
+President Donald Trump, for better or worse, already has shown that the U.S.
+
+00:13:14.859 --> 00:13:17.998
+can push around other nations if it wishes to.
+
+00:13:17.998 --> 00:13:21.751
+That lesson will not be lost on future administrations.
+
+00:13:21.751 --> 00:13:27.073
+All of a sudden, "AI sovereignty" is the new catchword, most of all in Europe.
+
+00:13:27.073 --> 00:13:30.962
+And who can blame foreign nations for their apprehension?
+
+00:13:30.962 --> 00:13:38.740
+Europe is increasingly realizing that it needs to control its own future when it comes to artificial intelligence.
+
+00:13:38.740 --> 00:13:41.674
+But sovereign AI is not so easy to achieve.
+
+00:13:41.674 --> 00:13:59.277
+It requires not only reliable, high-quality domestic models, but also sufficient energy, data centers, grid capacity, a workable permitting process for growth, a good understanding of AI applications, and semiconductor access, among other ancillary services.
+
+00:13:59.277 --> 00:14:05.350
+Europe, and indeed most of the rest of the world, is badly behind in most of these areas.
+
+00:14:05.350 --> 00:14:10.740
+Having a good and affordable European AI model would not set all of that right.
+
+00:14:10.740 --> 00:14:15.653
+Many countries do not have much of a chance of achieving AI sovereignty.
+
+00:14:15.653 --> 00:14:24.045
+Say you are Peru, which has about 34 million people but is far from being a tech powerhouse, much less a major force in AI.
+
+00:14:24.045 --> 00:14:42.535
+Imagine a near future where models from American companies run significant parts of the central bank and much of the education system, manage receipts flowing into the treasury, and are a source of significant and ongoing productivity improvements for Peruvian companies.
+
+00:14:42.535 --> 00:14:51.337
+In what sense are we still even talking about Peru here, if so much of the "intelligence" in the country is coming from the U.S.?
+
+00:14:51.337 --> 00:15:00.275
+I do not doubt that Peru could end up much richer and better run, but I also am not sure how Peruvians would accept this trade-off.
+
+00:15:00.275 --> 00:15:07.712
+Would it suffice to rename Claude as Claudio (or Claudia?), and have it speak Spanish with a Peruvian accent?
+
+00:15:07.712 --> 00:15:11.874
+Maybe, but it is fair to say we are in uncharted waters here.
+
+00:15:11.874 --> 00:15:19.516
+And Peru, of course, would have to worry about America applying the kill switch to even more of its AI services.
+
+00:15:19.516 --> 00:15:30.842
+That could happen as part of an attempt to bully Peru, or it could happen for reasons that have not much to do with Peru, as evidenced by the recent Fable 5 disputes.
+
+00:15:30.842 --> 00:15:37.324
+The lack of transparency over the Fable 5 dispute makes this possibility all the more worrying.
+
+00:15:37.324 --> 00:15:43.874
+One result is that many countries will be slower to move to even partial reliance on AI systems.
+
+00:15:43.874 --> 00:15:53.904
+That will mean lower wealth, lower productivity, and less knowledge and education for much of the world than we would have had with rapid adoption.
+
+00:15:53.904 --> 00:16:01.682
+It will be worst for those countries that most need the skills and knowledge that advanced AI systems will confer.
+
+00:16:01.682 --> 00:16:09.597
+Another result is that some countries may opt for an alliance with China and Chinese AI models, rather than the U.S.
+
+00:16:09.597 --> 00:16:20.378
+At least some of these countries are fence-sitters anyway, when it comes to choosing sides, and so lesser American reliability could tilt a few over the edge.
+
+00:16:20.378 --> 00:16:30.680
+In East Africa, for instance, current commercial connections with China are strong, and China has a reputation for not interfering in internal affairs.
+
+00:16:30.680 --> 00:16:35.866
+In this scenario, America would lose some of its global reach and influence.
+
+00:16:35.866 --> 00:16:43.030
+Finally, many countries and companies will opt for open-source AI systems, where there is no kill switch.
+
+00:16:43.030 --> 00:16:49.990
+That will also empower Chinese AI over American AI, since the best open-source models come from China.
+
+00:16:49.990 --> 00:17:02.203
+That might sound okay, but it is still a big geopolitical loss for America, and possibly for the nations buying Chinese AI as well, if Beijing decides to exploit their dependence.
+
+00:17:02.203 --> 00:17:13.597
+Even in the absence of a kill switch, when it comes to servicing, installation, applications, and upgrades, those countries would look to China rather than to the U.S.
+
+00:17:13.597 --> 00:17:20.625
+Furthermore, the open-source models typically are worse than the best American-made proprietary models.
+
+00:17:20.625 --> 00:17:22.877
+In sum, the inability of the U.S.
+
+00:17:22.877 --> 00:17:29.700
+government to reach an agreement with Anthropic translates into a big geopolitical loss for the U.S.
+
+00:17:29.700 --> 00:17:36.591
+It also means slower and inferior AI adoption for companies, schools, and countries around the world.
+
+00:17:36.591 --> 00:17:47.849
+Sometimes I hear non-Americans suggest going "all in" on American AI, conditioned on finding ways to make sure the Americans are equally dependent on others in turn.
+
+00:17:47.849 --> 00:18:04.565
+That sounds nice, but given the economic heft and military might of the U.S., I am not sure that many, if any, countries could achieve that status, even if they produce some important components for AI systems, as Germany and the Netherlands do.
+
+00:18:04.565 --> 00:18:09.478
+There is yet another huge problem behind all these first-order problems.
+
+00:18:09.478 --> 00:18:18.211
+Let us say, for instance, that France's Mistral AI develops very nicely and serves as an EU counterpart of Anthropic and OpenAI.
+
+00:18:18.211 --> 00:18:23.874
+Well, then the other European countries will become highly dependent on the French.
+
+00:18:23.874 --> 00:18:33.017
+That may seem okay today, but it will be much less fun for the Germans if the French really do have all that extra power and leverage.
+
+00:18:33.017 --> 00:18:38.612
+As for the French themselves, they would be highly dependent on a private company.
+
+00:18:38.612 --> 00:18:44.207
+France may end up with one such company, but it is unlikely to have three of them.
+
+00:18:44.207 --> 00:18:50.962
+So Mistral will in turn have high leverage over France, French politics, and French foreign policy.
+
+00:18:50.962 --> 00:18:53.145
+Let us hope they are up to that.
+
+00:18:53.145 --> 00:19:05.563
+The simple point is that being influenced by someone in your home country, even if it sounds more appealing rhetorically, is not always better than being pushed around by foreigners.
+
+00:19:05.563 --> 00:19:12.454
+Sometimes the foreigners are less oppressive and intrusive, if only because they care less about you.
+
+00:19:12.454 --> 00:19:18.800
+The good news is that we probably will get back some safety-enhanced version of Fable 5 soon.
+
+00:19:18.800 --> 00:19:23.644
+The major parties involved all have an incentive to reach an agreement.
+
+00:19:23.644 --> 00:19:34.424
+The bad news is that AI sovereignty is a crisis faced by the whole world, yet it is an invisible and slow-moving crisis that is not commanding many headlines.
+
+00:19:34.424 --> 00:19:41.043
+It is also a crisis without an easy solution, or one that can be turned into a meaningful slogan.
+
+00:19:41.043 --> 00:19:49.572
+"French AI for the French" may sound good, but it raises the questions of how to get there and what to do once you get there.
+
+00:19:49.572 --> 00:19:57.964
+We are entering a new world, and we are not prepared to deal with it—or even to think about it in very sophisticated terms.
+
+00:19:57.964 --> 00:20:04.503
+And the definitive blow-by-blow: Zvi Mowshowitz, in the second installment of his Fable series.
+
+00:20:04.503 --> 00:20:14.139
+The Once And Future Fable 2
+On Friday evening the United States Government has forced Anthropic to take down all access to Fable and Mythos.
+
+00:20:14.139 --> 00:20:15.928
+It’s been a rough weekend.
+
+00:20:15.928 --> 00:20:16.410
+Dean W.
+
+00:20:16.410 --> 00:20:35.820
+Ball: One thing about AI regulation being haphazardly imposed on just-released, highly performant models is that in a very real sense, the government just made my world *dumber.* In some impressionistic sense I almost always think this is true of government, but here it is literal.
+
+00:20:35.820 --> 00:20:38.022
+More details have come to light.
+
+00:20:38.022 --> 00:20:46.832
+There remains some fog of war, but we now have a rather good idea why Claude Fable and Mythos were, deeply stupidly, taken down.
+
+00:20:46.832 --> 00:20:53.233
+A narrow jailbreak was discovered, of the type Anthropic warned in advance obviously existed.
+
+00:20:53.233 --> 00:21:01.355
+All demonstrated outputs are things GPT-5.5 can not only produce, but produce without any sort of jailbreak or bypass.
+
+00:21:01.355 --> 00:21:12.161
+The White House demanded Anthropic take down Fable to ‘fix’ the situation, and did not listen when Dario tried to explain that there was no situation to fix.
+
+00:21:12.161 --> 00:21:22.073
+When Anthropic did not do so, the White House hit them with an export restriction that they knew would force Fable and Mythos down for everyone.
+
+00:21:22.073 --> 00:21:43.341
+A lot of nihilists are justifying this decision, and blaming Anthropic, all of whom are very much confirming that they adhere to Dean Ball’s portrait of the United States Government as a dying NPC hospice patient we have to properly placate with the proper vibes and genuflection so they don’t lash out at us.
+
+00:21:43.341 --> 00:21:50.224
+Except they equate this with strength and righteousness, because might makes right, power and vibes.
+
+00:21:50.224 --> 00:21:59.584
+This is a fast developing story with a large speed premium, so I apologize for any errors, and for the structure likely not being ideal.
+
+00:21:59.584 --> 00:22:01.099
+We do the best we can.
+
+00:22:01.099 --> 00:22:06.811
+What we do not know is:
+What was motivating the government to make these decisions.
+
+00:22:06.811 --> 00:22:10.804
+How deeply they were confused about how any of this works.
+
+00:22:10.804 --> 00:22:15.553
+Whether they demanded and are demanding a narrow fix or a global fix.
+
+00:22:15.553 --> 00:22:17.480
+Narrow fix is probably easy.
+
+00:22:17.480 --> 00:22:19.820
+Global fix is probably impossible.
+
+00:22:19.820 --> 00:22:24.432
+What they intend to do next and what they are trying to accomplish.
+
+00:22:24.432 --> 00:22:36.064
+The good outcome would be that this is a terrible misunderstanding, a reflection of a panic reaction, which can be sorted out quickly, after which we can restore access.
+
+00:22:36.064 --> 00:22:47.765
+Or where they otherwise face enough pressure they quickly realize they made a mistake, or Anthropic can do something to quickly assuage their concerns even if it is dumb.
+
+00:22:47.765 --> 00:23:09.446
+There will still be a terrible precedent set, which comes with a lot of permanent damage to trust in American AI, to our business climate, to our ability to employ vital foreign AI talent, to America’s relationships to its allies, to the progress of Project Glasswing and our cyber security, and to the rule of law.
+
+00:23:09.446 --> 00:23:21.353
+The silver lining, which might be large, is that this will have shown that when we actually need to act, we are not afraid to act, even at great economic and political cost.
+
+00:23:21.353 --> 00:23:31.609
+Sometimes there will be a demand driven by national security, or other concerns, and if you cannot physically meet that demand without shutting down?
+
+00:23:31.609 --> 00:23:32.022
+Tough.
+
+00:23:32.022 --> 00:23:42.828
+This was (with notably extremely rare exceptions) an action far out of bounds of what safety advocates have dared propose as even an option, and it happened.
+
+00:23:42.828 --> 00:23:55.217
+So there’s no more saying, in such situations: ‘Give up, the government will never do [X].’
+This also emphasizes the need to figure out how to act well, now, before we need to act.
+
+00:23:55.217 --> 00:24:05.403
+If we get into such a situation, and don’t have a good way to do [X], we might well do [X] in a no good, haphazard, deeply destructive way, instead.
+
+00:24:05.403 --> 00:24:12.424
+So get to work figuring out how to strike deals, or do a pause, or take down a given model, and so on.
+
+00:24:12.424 --> 00:24:21.165
+The bad outcome is if this is not a terrible misunderstanding, is motivated by other factors, and cannot be sorted out quickly.
+
+00:24:21.165 --> 00:24:41.126
+The government might actually be rapidly escalating towards a forcible takeover of America’s leading AI labs by a would-be authoritarian unitary executive that thinks you should never talk back to it, and when it says jump (or asks for stock, or anything else) everyone should ask how high.
+
+00:24:41.126 --> 00:24:41.676
+Or else.
+
+00:24:41.676 --> 00:25:03.082
+There is also the third possibility that, as unlikely as it looks now, the White House was correct, the threat was real, and this was an emergency situation, whether or not they did a good job justifying this to Dario and Anthropic in real time, and whether or not they are doing a good job justifying this now.
+
+00:25:03.082 --> 00:25:09.139
+Perhaps this was itself dangerous, or perhaps it implied too high risk of other dangers.
+
+00:25:09.139 --> 00:25:13.338
+We cannot rule this out until we can verify technical claims.
+
+00:25:13.338 --> 00:25:19.670
+And we should not assume that next time, the company will be right and the government wrong.
+
+00:25:19.670 --> 00:25:25.796
+There likely will come a time when a company says ‘This Is Fine’ and is very, very wrong.
+
+00:25:25.796 --> 00:25:35.156
+If that proves to be true, Anthropic will have lost a ton of credibility on all fronts, which is another reason I find this so unlikely.
+
+00:25:35.156 --> 00:25:37.703
+They cannot afford to be wrong, here.
+
+00:25:37.703 --> 00:25:50.780
+Table of Contents
+What Happened When: The Bottom Line
+The government’s own account is that Anthropic’s ‘lack of seriousness’ around responding led to the government imposing export controls.
+
+00:25:50.780 --> 00:26:01.105
+If we believe Axios and Politico, the ‘lack of seriousness’ was when Anthropic:
+Did not rush to take down Fable and act super deferential and serious.
+
+00:26:01.105 --> 00:26:05.923
+In response to a jailbreak that did not do anything GPT-5.5 cannot do.
+
+00:26:05.923 --> 00:26:07.643
+With no details provided.
+
+00:26:07.643 --> 00:26:10.810
+And instead asked for details of the incident.
+
+00:26:10.810 --> 00:26:13.494
+Within 90 minutes, on Friday afternoon.
+
+00:26:13.494 --> 00:26:38.066
+So it was basically ‘Anthropic wants to only do things because of reasons, and thus we concluded the vibes were off, so f*** them we’re blowing it all up to show who is boss.’
+This is also the second time ‘we could not reach Dario this particular minute so we had to blow up all of American AI policy shortly after 5pm on a Friday’ has come up as an excuse.
+
+00:26:38.066 --> 00:26:40.337
+It was also used by Emil Michael.
+
+00:26:40.337 --> 00:26:51.212
+This time, the claim is that he was at a ‘wellness retreat’ which Anthropic categorically denies, and which Ashlee Vance, who was there, categorically denies.
+
+00:26:51.212 --> 00:27:01.536
+Anthropic says it made Dario available 75 minutes after he was requested, and that other senior Anthropic people were made available during that time.
+
+00:27:01.536 --> 00:27:02.569
+I believe them.
+
+00:27:02.569 --> 00:27:13.237
+The White House waited far longer than 75 minutes, indeed they waited overnight, after they were contacted by Amazon, to start attempting to contact Dario.
+
+00:27:13.237 --> 00:27:19.294
+Amazon Calls The White House
+Details continue to come in on the events and the timeline.
+
+00:27:19.294 --> 00:27:39.323
+First Axios:
+Maria Curi (Axios):
+Behind the scenes: Amazon called administration officials Thursday night to share a report showing how they were able to jailbreak and access portions of Anthropic’s powerful new Mythos model that pose a national security threat, sources familiar told Axios.
+
+00:27:39.323 --> 00:27:54.466
+Anthropic had previously notified the government multiple times about the planned June 9 release of Fable — which is a general-use version of Mythos —and the government did not object, a source close to the company said.
+
+00:27:54.466 --> 00:28:08.232
+But calls from Amazon — as well as at least five other companies to a variety of senior administration officials Thursday evening and Friday morning — led to the model being shut down by Friday night.
+
+00:28:08.232 --> 00:28:18.005
+Amazon is confirmed as the central call, among others, that caused the White House to start taking actions that led to them taking down Fable.
+
+00:28:18.005 --> 00:28:27.985
+As I discussed last time, Anthropic’s release announcement included clear warnings that jailbreaks on the level of what Amazon did were possible.
+
+00:28:27.985 --> 00:28:33.216
+I have no doubt they extensively briefed the administration on such details.
+
+00:28:33.216 --> 00:28:38.103
+Does anyone remember this graph, from the Fable 5 release announcement?
+
+00:28:38.103 --> 00:28:42.921
+I do not understand why Amazon’s CEO called the White House over this.
+
+00:28:42.921 --> 00:28:47.189
+There is a key piece of information there that we do not know.
+
+00:28:47.189 --> 00:29:02.193
+The Government Panics
+Anthropic was then given less than 24 hours from the initial call by Amazon, and no details of anything actually concerning happening, after which it was hit by a classic ‘Friday after 5pm’ order.
+
+00:29:02.193 --> 00:29:09.558
+For most of those less than 24 hours, the government had not yet attempted to contact Anthropic about this.
+
+00:29:09.558 --> 00:29:25.113
+We have a source in the White House confirming, even if we fully buy their story, that they decided to risk blowing up all of American AI because they did not like the vibes they got in 90 minutes over a series of phone calls.
+
+00:29:25.113 --> 00:29:49.548
+Sophia C and Cheyenne Haslett: The move, which followed multiple tense calls between Anthropic CEO Dario Amodei and administration officials, including Treasury Secretary Scott Bessent and White House Cyber Director Sean Cairncross, underscores how the White House is wrestling in real-time with regulating fast-moving and potentially dangerous AI models.
+
+00:29:49.548 --> 00:30:04.965
+… Following the meeting, the administration attempted to reach Amodei but was told he was unavailable because he was attending a wellness retreat, one of the administration officials and the senior White House official said.
+
+00:30:04.965 --> 00:30:23.136
+A spokesperson for Anthropic rejected the claim that he was at a wellness retreat, saying, “this is absolutely false.”
+A person close to Anthropic said Amodei was first requested around noon and was on the phone with senior officials within an hour and 15 minutes.
+
+00:30:23.136 --> 00:30:29.812
+While he was out of pocket, Anthropic offered other senior leaders in his place, the person said.
+
+00:30:29.812 --> 00:30:51.080
+When the administration finally reached Amodei, he participated in three calls with a combination of roughly half a dozen senior administration officials, including Cairncross, Bessent and Commerce Secretary Howard Lutnick, according to the senior White House official and one of the administration officials.
+
+00:30:51.080 --> 00:30:56.862
+… During the calls, Amodei tried to clear up what he assumed was a misunderstanding.
+
+00:30:56.862 --> 00:31:17.235
+He pushed back on the administration’s concerns, defended the guardrails and argued that the type of bypass that occurred, which he believed to be specific, did not pose the same risk as a broader “jailbreak” that would allow it to be used without any of the guardrails put in place by Anthropic.
+
+00:31:17.235 --> 00:31:27.284
+Dario tried to explain that this was a narrow issue, and they simply did not understand or believe him, or chose not to understand or believe him.
+
+00:31:27.284 --> 00:31:32.791
+We now know that Dario was fully correct that the issue was narrow and harmless.
+
+00:31:32.791 --> 00:31:42.771
+Where Dario was incorrect was in assuming those he was talking to were both capable of and interested in understanding what he was trying to say.
+
+00:31:42.771 --> 00:31:56.674
+They urged Anthropic to voluntarily remove the model and coordinate with the government to address the vulnerabilities, according to the senior White House official and the two administration officials.
+
+00:31:56.674 --> 00:32:11.679
+Amodei asked for more time and information, but he made no commitments to pull the model, and at one point Bessent told Amodei directly that he was making a “bad decision,” according to the senior White House official.
+
+00:32:11.679 --> 00:32:20.076
+… “Export controls were a last resort after begging them for hours to work with us,” the senior White House official said.
+
+00:32:20.076 --> 00:32:34.668
+“This was not something we wanted to do, but our hands were tied.”
+After publication, one of the people close to Anthropic disputed that the company was given a choice to voluntarily work with the administration.
+
+00:32:34.668 --> 00:32:42.446
+“The White House gave 90 minutes to take the models down, with no details on the actual threat,” the person said.
+
+00:32:42.446 --> 00:33:17.204
+“There was never any begging — or asking — for them to work with us, just a declared 90 minute deadline.”
+tae kim: FT confirms: "Anthropic was given 90 minutes to comply and was not provided with detailed concerns before the order was issued, according to a person close to the company."
+Do you think the White House was ‘begging for hours?’ Or do you think they’re just throwing words out, that at best are code for ‘we did not issue an official order yet?’
+I see no reason not to believe Anthropic here.
+
+00:33:17.204 --> 00:33:22.435
+Dario tried to explain that this was a false positive and asked for details.
+
+00:33:22.435 --> 00:33:30.695
+The White House did not provide any details that supported their claims, or evidence that this was necessary or prudent.
+
+00:33:30.695 --> 00:33:46.456
+They simply said ‘remove Fable in 90 minutes,’ likely without making it clear this was ‘or else IFAR.’
+What pissed them off, it seems, is in large part that Anthropic wanted reasons, rather than asking how high when told to jump.
+
+00:33:46.456 --> 00:33:51.412
+That he failed to commit to asking how high, in general, no matter what.
+
+00:33:51.412 --> 00:34:02.838
+Axios: The bottom line: The source familiar with the government’s thinking said there was a “lack of seriousness” that Anthropic was applying to the release of Fable.
+
+00:34:02.838 --> 00:34:18.393
+“Had Anthropic taken it seriously and, rather than dismissing as isolated, moved to fix or pause access, this would have never happened,” the source said, adding “they were overly confident.”
+As in, they told us we were wrong.
+
+00:34:18.393 --> 00:34:20.595
+That means they are not serious.
+
+00:34:20.595 --> 00:34:26.377
+How could they possibly understand the situation better than the Treasury Secretary?
+
+00:34:26.377 --> 00:34:28.098
+Catch up quick: At 1 p.m.
+
+00:34:28.098 --> 00:34:43.584
+ET on Friday, Anthropic received a call from the government instructing them to roll back the release of the Mythos and Fable models due to a “national security threat,” but with no further details, the Anthropic source said.
+
+00:34:43.584 --> 00:34:54.459
+“We immediately sought to understand the specific nature of the threat so we could remediate it,” the source said, but the government held firm on the demand.
+
+00:34:54.459 --> 00:35:08.294
+Anthropic source: The Trump administration gave Anthropic 90 minutes on Friday to pull down its most powerful models before imposing a licensing regime on the company, according to an Anthropic source.
+
+00:35:08.294 --> 00:35:11.253
+Miles Brundage: Sure sounds like a hit job.
+
+00:35:11.253 --> 00:35:14.626
+The Stupider Version
+And that’s the good version.
+
+00:35:14.626 --> 00:35:31.420
+The bad version, as Chubby explains here, and which Axios seems to make clear, is that the White House is simply being petty, and thinks Anthropic ‘screwed them’ by asking for reasons and by having employed people with opposing political views.
+
+00:35:31.420 --> 00:35:34.999
+That is very illustrative of how these people think.
+
+00:35:34.999 --> 00:35:43.396
+Why it matters: Governing the world's most consequential technology is coming down to speaking President Trump's language.
+
+00:35:43.396 --> 00:35:58.814
+Anthropic failed to "honor" a recent cyber executive order, administration officials claim, and the company's purported failure to take the matter seriously led to its most powerful products being scrubbed from the internet.
+
+00:35:58.814 --> 00:36:01.705
+"Everybody said Anthropic was a bad actor.
+
+00:36:01.705 --> 00:36:05.146
+Some of us said it was time to give them a chance.
+
+00:36:05.146 --> 00:36:07.762
+Now those people are questioning that.
+
+00:36:07.762 --> 00:36:11.203
+They screwed us," an administration official said.
+
+00:36:11.203 --> 00:36:25.176
+…
+Behind the scenes: "Anthropic has not done a great job at trying to speak to the administration and appreciate the ideological differences," one source familiar with the administration's thinking said.
+
+00:36:25.176 --> 00:36:36.463
+"It's like they just speak in different languages," the source said, adding that the company has simply not figured out how to communicate with this administration.
+
+00:36:36.463 --> 00:36:49.059
+…
+Even before this breakdown, a previous fight between Anthropic and the Pentagon also came down in some ways to just not liking the person on the other side of the negotiating table.
+
+00:36:49.059 --> 00:37:01.104
+A White House official told Axios that the Pentagon fight is completely unrelated — but Anthropic's inability to communicate effectively showed up in a similar, unhelpful way.
+
+00:37:01.104 --> 00:37:03.307
+"We never wanted this to happen.
+
+00:37:03.307 --> 00:37:09.777
+Our number one priority is innovation but our hands were tied," the White House official said.
+
+00:37:09.777 --> 00:37:12.117
+The optics added fuel to the fire.
+
+00:37:12.117 --> 00:37:16.591
+Anthropic came out with a blog post dismissing the Amazon report.
+
+00:37:16.591 --> 00:37:27.879
+Then the company enlisted a cybersecurity expert viewed by the administration as a "radical Democrat," who was then celebrated by Chris Krebs, who Trump just fired.
+
+00:37:27.879 --> 00:37:41.025
+The White House did not like that the Anthropic security expert was a ‘radical Democrat’ and the White House is interpreting that as ‘they screwed us’ and should now be considered bad actors.
+
+00:37:41.025 --> 00:37:45.292
+The stupidity, on all sides, of such a thing, knows no bounds.
+
+00:37:45.292 --> 00:37:52.175
+This is not something that should matter, but it also would be a really stupid mistake by Anthropic.
+
+00:37:52.175 --> 00:38:10.759
+Look, yes, these folks are that obsessed with political perspectives, so when dealing with them directly you really do need to prioritize sending in people who won’t set off these folks, even though this is a fully apolitical situation where that concern makes no sense.
+
+00:38:10.759 --> 00:38:12.686
+So it’s kind of on everyone.
+
+00:38:12.686 --> 00:38:20.464
+There Was No Wellness Retreat
+Ashlee Vance: Anthropic has pushed AI forward dramatically over the past two years.
+
+00:38:20.464 --> 00:38:23.561
+It’s currently the crown jewel of US AI tech.
+
+00:38:23.561 --> 00:38:28.379
+The Feds don’t like DarioAmodei because he won’t do all their bidding.
+
+00:38:28.379 --> 00:38:42.420
+And so, we’ve now entering the Soviet-style propaganda portion of the program with the White House feeding every reporter it can find with laughable claims like Dario is unreachable at a wellness retreat.
+
+00:38:42.420 --> 00:38:42.971
+Come on.
+
+00:38:42.971 --> 00:38:50.886
+I’d hoped the US would not be self-defeating on AI, since it’s kinda one of the last hopes the US has versus China.
+
+00:38:50.886 --> 00:38:52.056
+But here we are .
+
+00:38:52.056 --> 00:38:52.125
+.
+
+00:38:52.125 --> 00:38:52.194
+.
+
+00:38:52.194 --> 00:38:52.263
+.
+
+00:38:52.263 --> 00:38:56.048
+alreadyNone of this was some weeks long back and forth.
+
+00:38:56.048 --> 00:39:00.660
+I was at Anthropic’s HQ on Friday reporting when this all unfolded.
+
+00:39:00.660 --> 00:39:03.069
+Dario is not at a wellness retreat.
+
+00:39:03.069 --> 00:39:08.506
+The Feds seemed to be scrambling to try and make an example of Anthropic again.
+
+00:39:08.506 --> 00:39:10.021
+This is not technical.
+
+00:39:10.021 --> 00:39:18.624
+It’s petty.Think Anthropic was just trying to figure what was at the heart of the gripe and was not given much time to do so.
+
+00:39:18.624 --> 00:39:25.782
+Not sure if you’ve noticed but this is isn’t always the most rational and good faith of administrations.
+
+00:39:25.782 --> 00:39:35.831
+Teortaxes: I condemn libel
+“Dario was at wellness retreat” is almost certainly stereotype-driven bullshit cooked up by cruel baboons like Hegseth.
+
+00:39:35.831 --> 00:39:45.467
+Dario is a fanatic and a founder CEO, not a hippie, and he wouldn’t go on a vacation while the obviously tense situation with Fable unfolds.
+
+00:39:45.467 --> 00:39:59.646
+I find it very unlikely that Dario was at a wellness retreat, but even if he was you do not blow up all of American AI policy if a CEO does not have his phone for four hours and left someone else in charge.
+
+00:39:59.646 --> 00:40:00.954
+What is this, 2029?
+
+00:40:00.954 --> 00:40:08.250
+Make Your Threats Explicit
+There has been a lot of miscommunication between the White House and Anthropic.
+
+00:40:08.250 --> 00:40:18.987
+Reporting is that Dario Amodei was told ‘you are making a bad decision’ when he refused to voluntarily take down Fable, instead asking for more information.
+
+00:40:18.987 --> 00:40:21.671
+The thing is, that could mean anything.
+
+00:40:21.671 --> 00:40:38.603
+It could mean ‘we will be mad at you’ or ‘this is now on you and if something goes wrong it is your fault.’
+Could all of this have been avoided if instead of maintaining deniability, Dario had been told, explicitly, ‘Fable is going offline today.
+
+00:40:38.603 --> 00:40:48.102
+If you do not agree this minute to do this voluntarily we will hit you with an export control and you’ll be totally f***ed?’
+I don’t know.
+
+00:40:48.102 --> 00:40:49.478
+But my guess is yes.
+
+00:40:49.478 --> 00:41:13.637
+I did notice that the option had previously been put on the table, here’s Axios:
+The administration first threatened Anthropic with export controls a couple of weeks ago after learning that its cutting-edge Mythos model was made available to an entity in a foreign country with direct ties to the Chinese Communist Party, according to the White House.
+
+00:41:13.637 --> 00:41:15.495
+Was China Accessing Mythos?
+
+00:41:15.495 --> 00:41:25.063
+There is the claim via the Financial Times, Verge and Semafor that the White House learned that ‘a China linked-group’ had accessed Mythos.
+
+00:41:25.063 --> 00:41:30.500
+My suspicion is this is a mixup with the earlier incident mentioned just above?
+
+00:41:30.500 --> 00:41:31.877
+Could go either way.
+
+00:41:31.877 --> 00:41:40.411
+That is absolutely going to happen, at least from time to time, when there are over 100 partnerships given access to Mythos.
+
+00:41:40.411 --> 00:41:42.821
+Access controls can only go so far.
+
+00:41:42.821 --> 00:41:49.290
+The key is to contain what can be done before the compromised access is discovered and closed.
+
+00:41:49.290 --> 00:42:09.733
+The report said ‘had been accessed’ rather than ‘has continued access.’
+It would be non-crazy, although likely an overreaction, to ask that this mean Mythos be temporarily limited to a core group within Glasswing, or potentially even shut down entirely for a time, but that would not impact Fable.
+
+00:42:09.733 --> 00:42:19.850
+It could potentially also have contributed to the vibes issues, or there could have been confusion about the relationship between these two things.
+
+00:42:19.850 --> 00:42:23.911
+Should Anthropic Still Have Taken Fable Offline When Asked?
+
+00:42:23.911 --> 00:42:24.255
+Look.
+
+00:42:24.255 --> 00:42:24.531
+Yes.
+
+00:42:24.531 --> 00:42:25.839
+A mistake was made.
+
+00:42:25.839 --> 00:42:29.486
+I am not a ‘oh Anthropic did nothing wrong’ guy here.
+
+00:42:29.486 --> 00:42:40.912
+Try to talk them out of it if you can, but when they aren’t budging, you do it, even though it is mind bogglingly stupid and expensive and might be kind of a hit job.
+
+00:42:40.912 --> 00:42:53.921
+And I do think they bear some of the responsibility here, because of that, and also they could have in various ways ‘handled’ the White House better, including in terms of who they sent in.
+
+00:42:53.921 --> 00:43:14.845
+You want to establish, on multiple levels, the precedent that you take the model down when told to while you sort things out, and you say you were doing it because the government raised a potential security concern, at least until such time as it is clear they are not going to get over it any time soon.
+
+00:43:14.845 --> 00:43:17.529
+In hindsight this is even more obvious.
+
+00:43:17.529 --> 00:43:19.250
+But what is done is done.
+
+00:43:19.250 --> 00:43:20.144
+And I get it.
+
+00:43:20.144 --> 00:43:37.971
+The request was unjustified and nonsensical and rushed and the people had no idea what they’re talking about, and they really are just ordering you to do their bidding like this isn’t a Republic and that is not okay, and no one would be so stupid as to… yeah.
+
+00:43:37.971 --> 00:43:38.315
+Yeah.
+
+00:43:38.315 --> 00:43:43.890
+There are also various signs that the Fable launch may have been somewhat rushed.
+
+00:43:43.890 --> 00:43:54.077
+Miles Brundage: The admin is going to keep leaking all sorts of details that make it sound, to a casual reader, like this was a reasonable decision.
+
+00:43:54.077 --> 00:44:33.378
+But there has been zero indicating that domain experts at CAISI or NSA were involved - all reporting points to “senior White House officials.”The closest that there has been to such an indication is the claim that the jailbreak research was shared with “security researchers.”
+But there is no indication that this had influence on decision-making + the 1 independent researcher who has been quoted concurs with AnthropicTo be clear, I think it’s quite plausible to imagine a reasonable case that “the Fable launch was rushed.” Threat modeling, cost-benefit analysis, etc.
+
+00:44:33.378 --> 00:44:33.998
+are hard.
+
+00:44:33.998 --> 00:44:54.991
+Less likely is a good case that “this was clearly bad *and* also 5.5 was (and soon 5.6 will be) clearly good.”Nathan Lambert: +1, vibes
+If you tell me the head of CAISI consulted his team and thinks Fable access needs to be restricted and the threat is serious, I would be a lot more likely to believe it.
+
+00:44:54.991 --> 00:45:00.566
+If you tell me it was Commerce acting alone, they don’t know what they are doing.
+
+00:45:00.566 --> 00:45:04.764
+I also totally can believe that the Fable release was rushed.
+
+00:45:04.764 --> 00:45:17.429
+Evidence includes it happening on a Tuesday, Anthropic not realizing people would object to the output downgrading and the general state of the classifiers, and it just happening fast.
+
+00:45:17.429 --> 00:45:21.558
+That does not in any way make the export control order okay.
+
+00:45:21.558 --> 00:45:37.664
+Yes, This Was A Takedown Order For Fable
+Mainstream media has this very strange way of saying that the obviously true thing might actually be true, ya’al, but strictly speaking we can’t prove it and we are a Serious News Organization.
+
+00:45:37.664 --> 00:45:45.855
+The Economist: The American government’s primary aim may not have been to control foreign access to frontier AI models.
+
+00:45:45.855 --> 00:45:52.256
+Instead, it appears to have used export controls as a convenient way to target Anthropic
+Yes.
+
+00:45:52.256 --> 00:46:02.443
+This was a way to target Anthropic to get them to take the model down for everyone, and they did not much care about the blast radius of the method.
+
+00:46:02.443 --> 00:46:06.985
+They knew full well that this was a de facto full takedown notice.
+
+00:46:06.985 --> 00:46:12.148
+That is true even if you are maximally charitable to the government’s case.
+
+00:46:12.148 --> 00:46:22.128
+It is in theory possible they were so clueless they did not realize this would be the result, but that’s worse, you know why that’s worse, right?
+
+00:46:22.128 --> 00:46:47.801
+We Are Not Saying The DoW Fight Is Related And Yet
+Well, technically the NSA operates out of Fort Meade, Maryland, so that does not count here in terms of evaluating Hegesth’s claims, although there is the whole ‘they used Claude extensively to fight an undeclared war against Iran.’
+Pete Hegseth: Three months ago, DeptofWar kicked AnthropicAI out of our building—forever.
+
+00:46:47.801 --> 00:46:51.449
+Every passing day proves why that was the right move.
+
+00:46:51.449 --> 00:46:52.757
+[US Flag]Timothy B.
+
+00:46:52.757 --> 00:46:58.676
+Lee: Claude Fable is so powerful we can let it fall into the hands of our adversaries.
+
+00:46:58.676 --> 00:47:01.498
+Also it’s too dangerous for us to use it.
+
+00:47:01.498 --> 00:47:03.494
+Real galaxy-brain stuff here.
+
+00:47:03.494 --> 00:47:46.925
+Nat Purser: if the admin wants people to believe the anthropic decision was made out of genuine security necessity rather than grievance-driven retaliation, high ranking officials could simply stop posting like this
+The Nihilists
+I posted an early version of the bottom line snippet from earlier on Twitter and a remarkable number of people replied with a version of ‘how dare Anthropic not make their CEO available 24/7 on a moment’s notice and do whatever the government asks them to do without question while sending the correct vibes, they didn’t do that so this serves them right.’
+Do these people think we live in a republic?
+
+00:47:46.925 --> 00:47:48.233
+Would they like to?
+
+00:47:48.233 --> 00:47:48.852
+I wonder.
+
+00:47:48.852 --> 00:48:16.315
+Do these people think that if a company doesn’t perform the Shibboleths of knee bending properly then we should wreck American AI, all of our productivity, our global position and the rule of law over nothing, cause Anthropic deserves to suffer, and that is Anthropic’s fault because America’s government is an NPC with an anger management problem and you know how he gets when you talk back to him?
+
+00:48:16.315 --> 00:48:17.967
+I think they kind of do.
+
+00:48:17.967 --> 00:48:20.582
+That is exactly the vibe I am getting.
+
+00:48:20.582 --> 00:48:22.785
+Think about what you are saying.
+
+00:48:22.785 --> 00:48:36.826
+That’s on top of the people saying ‘Anthropic said government should regulate AI so this serves them right’ or ‘Anthropic said that frontier models are dangerous so this serves them right.’ Similar vibes.
+
+00:48:36.826 --> 00:48:47.632
+Whereas for those of us who are not nihilists, who do not believe in might makes right, it is hard to see the reasonable version of this from the USGov side.
+
+00:48:47.632 --> 00:49:00.296
+The correct criticism of Anthropic is ‘they should have still taken the model down when ordered, no matter how stupid they thought that was, while discussions continued.’ That’s valid.
+
+00:49:00.296 --> 00:49:04.013
+The things people are almost entirely actually saying?
+
+00:49:04.013 --> 00:49:16.127
+It’s a bunch of nihilism, of pure worshipping of power and tribalism, and hurting everyone as long as it hurts those you dislike more, of lashing out because of and with vibes.
+
+00:49:16.127 --> 00:49:22.735
+Mostly Harmless
+At least one source has now seen the research report, claiming it shows nothing.
+
+00:49:22.735 --> 00:49:31.545
+We don’t have any person on the other side claiming that the report shows something, or explaining what that something might be.
+
+00:49:31.545 --> 00:49:49.509
+Katie Moussouris (CEO Luta Security): The government’s response “seems way out of line with what’s actually in the research report.”
+All AI models need to be able to help defenders in exactly this way, or we won’t be able to scale our defense against attackers.
+
+00:49:49.509 --> 00:50:02.518
+Maria Curi: Moussouris said the researchers were able to find security vulnerabilities by asking questions normal defenders would ask AI, which is exactly what the model was intended to do.
+
+00:50:02.518 --> 00:50:09.814
+Everyone Means Everyone
+It looks like when Anthropic took Mythos down, they really did fully take it down.
+
+00:50:09.814 --> 00:50:20.069
+The Economist: Spy agencies are likely to regain access to Mythos, says one former British intelligence official; negotiations are already under way.
+
+00:50:20.069 --> 00:50:22.340
+Private firms may find it harder.
+
+00:50:22.340 --> 00:50:28.328
+Even so, some observers believe the American government will eventually have to relent.
+
+00:50:28.328 --> 00:50:35.624
+It appears that, because this was done in such a stupid fashion, Project Glasswing is cut off from Mythos.
+
+00:50:35.624 --> 00:50:39.754
+The clock is ticking before others get similar capabilities.
+
+00:50:39.754 --> 00:50:44.641
+I wonder what the spy agencies and major corporations think about this.
+
+00:50:44.641 --> 00:51:00.816
+The ‘good’ news is that Mythos has presumably already found a lot more vulnerabilities that remain unpatched, and which Claude Opus 4.8 and GPT-5.5 are strong enough to help patch once they are found, so defensive work should continue.
+
+00:51:00.816 --> 00:51:12.998
+Cyber leaders, according to Axios, are being clear that this move net harms our cyber security, because given who has access in what ways it helps defenders more than attackers.
+
+00:51:12.998 --> 00:51:19.399
+There is now an open letter to this effect, urging the government to restore access to Fable.
+
+00:51:19.399 --> 00:51:59.595
+Kevin Frazier (via Axios): “Prominent cybersecurity leaders — including CISOs, security researchers and executives at Adobe, Zoom and Sophos — are urging the Trump administration to reverse restrictions on Anthropic's most advanced AI models, arguing the move hurts cyber defenders more than attackers.”
+From the letter, calling this a pure unforced error that does nothing but net damage:
+It is our understanding that underlying model capabilities in the original research that triggered this action:
+Were focused on determining whether a human-prompted section of code was insecure.
+
+00:51:59.595 --> 00:52:08.887
+This is a necessary capability in any model that is intended to write secure code and should not be considered an offensive capability.
+
+00:52:08.887 --> 00:52:14.462
+Can be replicated on GPT-5.5, Opus, Sonnet and even Chinese models like Kimi 2.7.
+
+00:52:14.462 --> 00:52:30.155
+The justification for this unprecedented action was that Fable provides a unique “uplift” of capabilities beyond other AI models, but AI has been finding bugs and generating working exploits at superhuman levels since last year.
+
+00:52:30.155 --> 00:52:32.702
+Anthropic is addressing the research.
+
+00:52:32.702 --> 00:52:47.913
+As security professionals, we recognize that our work does not lead to a simple end-state where a system is fully safe, and the purpose of research like this is to enable continuous improvement, not to ban the technology.
+
+00:52:47.913 --> 00:52:59.683
+As a result, this action has taken the best models away from defenders, created market uncertainty, and risked America’s AI leadership without any real risk to justify it.
+
+00:52:59.683 --> 00:53:18.129
+This Could Be The Good Scenario And Mostly A Misunderstanding
+The action was definitely ‘vibe governing.’ The decision was some combination of ‘this seems vaguely spooky’ and ‘f*** Anthropic,’ not ‘we have a policy and a threshold.’
+It could still be well intentioned.
+
+00:53:18.129 --> 00:53:27.834
+Nathan Lambert: The Dario faction and the Sacks faction speak very different languages, and a Dario clarification could sound like a refusal.
+
+00:53:27.834 --> 00:53:31.000
+This puts us very squarely in vibe governance.
+
+00:53:31.000 --> 00:53:38.021
+Models are released when the gov thinks its okay, and it is unlikely this is based on technical evals.
+
+00:53:38.021 --> 00:53:42.426
+My presumption is that what happened was pretty straightforward.
+
+00:53:42.426 --> 00:53:59.771
+Someone said ‘hey there is a jailbreak fix it’ and Dario said ‘this is harmless there is nothing to fix.’ The question remains, was the request ‘fix this particular jailbreak’ or ‘fix all jailbreaks pls tks?’
+The above is the charitable interpretation.
+
+00:53:59.771 --> 00:54:02.180
+There is also the uncharitable one.
+
+00:54:02.180 --> 00:54:21.727
+Ben Smith: Extent to which White House allies are signaling that this is a culture war issue, not a technical one, is striking
+Matthew Yglesias: I would say they’re not even signaling that it’s a culture war issue, they’re signaling that it’s a “pay us money or else” shakedown issue.
+
+00:54:21.727 --> 00:54:36.456
+There’s no content at all to this, it’s just gangster politics
+Taylor Budowich: I’m told Anthropic is perplexed by the situation they are facing, so they’ve turned to k8em0 to do their on-the-record rapid response.
+
+00:54:36.456 --> 00:54:39.072
+These people really just don’t get it.
+
+00:54:39.072 --> 00:55:04.332
+Or simply:
+Miles Brundage: “Well acktually Dario seems smug so abusing government authorities is fine” - some of y’all basically
+Kudos to Martin Casado for speaking out against what happened, and maybe even being convinced by argument to move from his initial position of ‘it’s a cyber weapon so any jailbreak is unacceptable’ even if he did end up blocking that guy.
+
+00:55:04.332 --> 00:55:30.005
+I will fully allow some amount of ‘Anthropic’s rhetoric did not make this easier’ if it is coupled with ‘and bad decisions are still bad’ rather than ‘so f*** Anthropic even if we all lose.’
+The Next Step
+Anthropic is flying various senior technical staff to Washington, who are spending today trying to sort this all out, which is absolutely what you do in this situation.
+
+00:55:30.005 --> 00:55:32.277
+We will soon learn how that goes.
+
+00:55:32.277 --> 00:55:34.273
+Many next steps are possible.
+
+00:55:34.273 --> 00:55:41.431
+The Worst Licensing Regime Is Fully Ad-Hoc
+We now have more or less the worst possible licensing regime.
+
+00:55:41.431 --> 00:55:52.650
+It is fully ad-hoc, vibes based, and based on the whims of people who do not understand how AI works, and who we have no reason to assume are acting in good faith.
+
+00:55:52.650 --> 00:55:53.132
+Dean W.
+
+00:55:53.132 --> 00:55:58.913
+Ball: Make no mistake: post-Mythos, the United States has a licensing regime for AI.
+
+00:55:58.913 --> 00:56:05.934
+It’s just informal, with no consistent rules or firm boundaries on state power or public transparency.
+
+00:56:05.934 --> 00:56:12.610
+Cobalt mining in the Congo is vastly more institutionalized than frontier AI licensing in the US.
+
+00:56:12.610 --> 00:56:20.732
+If you avoid all formal regulations and laws, and this results in regulation and law via executive fiat, that’s worse.
+
+00:56:20.732 --> 00:56:23.003
+You know that that’s worse right?
+
+00:56:23.003 --> 00:56:26.307
+Neil Chilson and Adam Thierer: This is not good!
+
+00:56:26.307 --> 00:56:27.271
+A leading U.S.
+
+00:56:27.271 --> 00:56:37.044
+AI company was forced to take down a product that millions were using based on non-public, unexplained concerns of a few government officials.
+
+00:56:37.044 --> 00:56:39.798
+This isn’t the red-tape risk of the FDA.
+
+00:56:39.798 --> 00:56:50.810
+It’s more like the FDA demanding, out of the blue and without explanation, that everyone stop drinking milk — if milk was 50% of last year’s stock market gains.
+
+00:56:50.810 --> 00:56:59.896
+… But even if you disagree with Anthropic’s regulatory strategy, this escalation of government intervention is nothing to celebrate.
+
+00:56:59.896 --> 00:57:02.924
+It is horrible for the broader AI ecosystem.
+
+00:57:02.924 --> 00:57:13.730
+Continued arbitrary, unexplained deployment of export control authority will make companies slow-walk new models, depriving the public of powerful new tools.
+
+00:57:13.730 --> 00:57:20.131
+Every AI model, like all software before it, will have vulnerabilities that require patching.
+
+00:57:20.131 --> 00:57:28.528
+The US government should not hang a Sword of Damocles over every lab’s head, with no indication when it might drop or why.
+
+00:57:28.528 --> 00:57:32.176
+… This episode yet again shows why Congress must act.
+
+00:57:32.176 --> 00:57:41.881
+We need a balanced statutory framework for frontier model safety, rooted in the rule of law, with clear standards and transparent procedures.
+
+00:57:41.881 --> 00:57:49.177
+Civilian authorities must direct this process; it must not be co-opted by the military-industrial complex.
+
+00:57:49.177 --> 00:57:58.125
+America’s AI leadership will diminish if our government continues the ad-hoc and myopic approach to AI policy recently on display.
+
+00:57:58.125 --> 00:57:58.813
+Well said.
+
+00:57:58.813 --> 00:58:16.020
+What the White House is doing is terrible no matter your view on future AI capabilities, or AI risks, or the need to ‘win the AI race.’ It is bad all around, except that it centralizes power within the White House, via the threat of ad hoc shutdowns.
+
+00:58:16.020 --> 00:58:24.211
+Remember when Trump was worried that a proposed Executive Order would harm American AI too much, so he did not sign it?
+
+00:58:24.211 --> 00:58:29.304
+This is so, so much worse for that, while also having many other problems.
+
+00:58:29.304 --> 00:58:46.718
+Mark Dalton at R Street has a similar analysis, calling this The Fable Fiasco: A Bad Idea Applied Badly, pointing out that ITAR and KYC are not equipped for this task, and pointing out we will face real foreign-policy consequences for doing it this way.
+
+00:58:46.718 --> 00:59:03.030
+We Are Showing We Are Unreliable Partners
+As mentioned last time, but it bears repeating: One of those other problems is that this gives a huge kick to those who previously thought they were our allies and would be under our AI umbrella.
+
+00:59:03.030 --> 00:59:06.678
+Do not forget that the European Union still has ASML.
+
+00:59:06.678 --> 00:59:14.800
+Not only will such folks not trust the ‘American AI stack’ under these conditions, they will try to build a rival one.
+
+00:59:14.800 --> 00:59:29.392
+This risks driving them into the hands of China, and towards having their own chips and their own data centers under their own control, and towards use of non-American open models even though they are much worse.
+
+00:59:29.392 --> 00:59:32.833
+Tyler Cowen: A new line has been crossed: The U.S.
+
+00:59:32.833 --> 00:59:38.271
+government has finally declared an AI model too dangerous for unrestricted use.
+
+00:59:38.271 --> 00:59:42.676
+It’s the kind of move that could cripple AI progress in the U.S.
+
+00:59:42.676 --> 00:59:44.121
+and around the world.
+
+00:59:44.121 --> 00:59:48.457
+The events here also do not bode well for American open models.
+
+00:59:48.457 --> 01:00:14.199
+If America is willing to put export controls on not only model weights but the model outputs, even when they are as heavily safeguarded as Fable, do you think they are not coming for your open models, with no classifiers that are not easily removed, with no safety training that cannot be undone by anyone who knows about obliteratus, that cannot be shut down once released?
+
+01:00:14.199 --> 01:00:18.123
+Think harder about the implications of what is happening.
+
+01:00:18.123 --> 01:00:22.321
+Our policy responses are going off the rails remarkably fast.
+
+01:00:22.321 --> 01:00:33.058
+So I will close with a reminder of how badly we need rule of law, here, and how bad the alternative is already proving to be only weeks into the new regime.
+
+01:00:33.058 --> 01:00:33.540
+Dean W.
+
+01:00:33.540 --> 01:00:40.630
+Ball: AI policy is a really poignant example of just how deeply American civics have been hollowed out.
+
+01:00:40.630 --> 01:00:48.063
+In almost all other areas of tech policy, we have at least some prior law and regulation from which to draw.
+
+01:00:48.063 --> 01:00:58.938
+If you think, as I do, that politics and law are ritual practices through which we embody civic ideals, these earlier bodies of law are like prior ritual art.
+
+01:00:58.938 --> 01:01:01.967
+They give us some sense of a starting point.
+
+01:01:01.967 --> 01:01:12.084
+So even though crypto is new, it is part of a very old industry (financial services), which carries with it a lot of prior legal and political art.
+
+01:01:12.084 --> 01:01:18.485
+With AI we have nothing of the sort, so all our leaders can think to do is punch one another.
+
+01:01:18.485 --> 01:01:29.429
+The impulse of “let’s have stable rules so that we aren’t punching one another all the time” isn’t really something you hear anyone saying outside of industry.
+
+01:01:29.429 --> 01:01:34.041
+The rule of law seems absent in our political muscle memory.Dean W.
+
+01:01:34.041 --> 01:01:44.847
+Ball: Precisely as I predicted, the recent cyber EO, which admin officials insisted was not a licensing regime, ends up in practice being a licensing regime.
+
+01:01:44.847 --> 01:02:01.641
+Forget “voluntary,” forget “permissionless.”
+AI is licensed now, but the requirements change constantly and are always a secret, even to the administration itself, which will discover the rules spontaneously in real time as it reacts to events.
+
+01:02:01.641 --> 01:02:10.795
+This means also that the rules are in practice stricter and more roughly enforced for organizations the administration does not like.
+
+01:02:10.795 --> 01:02:14.512
+Can you blame Anthropic for making itself so disliked?
+
+01:02:14.512 --> 01:02:15.682
+In a sense, sure.
+
+01:02:15.682 --> 01:02:23.322
+The problem is that this childish “he said, she said” is all we have to go on in our analysis of the situation.
+
+01:02:23.322 --> 01:02:35.230
+And because there is no transparency (it is all calls and texts between “White House officials” and “Anthropic executives”), in practice it comes down to who you trust more.
+
+01:02:35.230 --> 01:02:37.088
+This is why we create laws!
+
+01:02:37.088 --> 01:02:48.582
+To abstract away from personal power struggles and grudges, to submit to the steady application of rules so that complex human activity can unfold with predictability.
+
+01:02:48.582 --> 01:02:51.955
+The rule of law has been being eroded in the U.S.
+
+01:02:51.955 --> 01:03:05.101
+for my entire life, but it is especially acute in AI because of both the lack of much preexisting law to serve as bulwark, and because of this admin’s insistence that it is Not Regulating AI.
+
+01:03:05.101 --> 01:03:14.600
+This has become an excuse for vagueness and evasiveness in rule-drafting (see the cyber EO), and this in turn makes the lawlessness worse.
+
+01:03:14.600 --> 01:03:19.762
+The government wants to apply its force to frontier AI, that much is clear.
+
+01:03:19.762 --> 01:03:22.308
+It wants to make the industry submit.
+
+01:03:22.308 --> 01:03:34.560
+And in service of that goal, it has discovered that “not regulating AI” is in fact a great excuse for refusing to support laws that could constrain the admin’s exercise of power.
+
+01:03:34.560 --> 01:03:41.649
+In other words, “not regulating AI” is a *justification* for the tyrannical control of AI by the state.
+
+01:03:41.649 --> 01:03:45.641
+This should alarm you regardless of what party you are in.
+
+01:03:45.641 --> 01:03:53.006
+What you are seeing now will be used against you one day soon, if not by this admin then by its successors.
+
+01:03:53.006 --> 01:03:55.897
+This is the antithesis of the rule of law.
+
+01:03:55.897 --> 01:04:00.164
+The administration cannot and will not fix this problem alone.
+
+01:04:00.164 --> 01:04:04.156
+We need Congress to step in and impose rules on this mess.
+
+01:04:04.156 --> 01:04:07.102
+From the shutdown to the work itself.
+
+01:04:07.102 --> 01:04:13.471
+James Pethokoukis introduces what he calls the world's top AI-pilled economists.
+
+01:04:13.471 --> 01:04:23.343
+Meet the world’s top AI-pilled economists
+
+"This year the NBER is likely to host more conferences on health care than on AI.
+
+01:04:23.343 --> 01:04:29.234
+But some academic economists have seized the AI opportunity."
+TheEconomist
+
+01:04:29.234 --> 01:04:34.027
+Ethan Mollick, on the big issue with AI strategies at large companies.
+
+01:04:34.027 --> 01:04:53.197
+Big issue with AI strategies at big companies which realized the importance of AI last year (which is only a small subset, most are still not moving fast) is that, in the best case, they developed their strategy in late 2025, before the agentic revolution
+
+Things changed since...
+
+01:04:53.197 --> 01:04:59.280
+And Mollick at length, on what it actually feels like to work with a model like Mythos.
+
+01:04:59.280 --> 01:05:12.216
+What it feels like to work with Mythos
+Claude Fable represents another big jump in AI
+I had early access to the first Mythos-class AI model being released to the public, Claude 5 Fable.
+
+01:05:12.216 --> 01:05:27.459
+Much of the discussion of Mythos has centered on its impact on software security, but I tested it on everything except that (the guardrails around Fable essentially prevent it from being used for cybersecurity at all).
+
+01:05:27.459 --> 01:05:39.975
+My conclusion is that it represents a very real leap over every model I have used before, and, maybe more important, suggests our relationship with AI is changing in drastic ways.
+
+01:05:39.975 --> 01:05:41.724
+First, how good is Fable?
+
+01:05:41.724 --> 01:05:50.953
+In experiment after experiment I conducted, it outperformed basically every other public model I have used by a considerable margin.
+
+01:05:50.953 --> 01:06:01.232
+It was capable across many problems and produced some startling results — it would work up to a dozen hours executing on multi-page specifications.
+
+01:06:01.232 --> 01:06:11.930
+I’ll walk you through a couple of more complex, and serious, use cases shortly, but you could see the general improvement across the board on every task.
+
+01:06:11.930 --> 01:06:22.838
+The problem about communicating this in a post is that many of the most impressive results are going to be interesting to only small portions of my readers.
+
+01:06:22.838 --> 01:06:33.187
+For example, it made the most sophisticated academic social science paper I have yet seen from an AI from a single prompt and one piece of feedback.
+
+01:06:33.187 --> 01:06:40.319
+It also created a 10-page epic rhyming poem about a haircut where every word starts with the letter s.
+
+01:06:40.319 --> 01:06:47.381
+So, as a more accessible and entertaining example, I also had it create a bunch of games you can try.
+
+01:06:47.381 --> 01:07:03.044
+All of these are one initial prompt in Claude Code where Fable had to take my vague prompts and generate something workable, followed by a couple of additional prompts with minor encouragement (“make it better”) or feedback.
+
+01:07:03.044 --> 01:07:14.861
+What makes these especially impressive is that Claude cannot generate images, so every piece of art or 3D object was made with math alone, not using any external assets.
+
+01:07:14.861 --> 01:07:32.761
+You can try any of them: a game about flipping coins (prompt: “Balatro, but for the game of coin flips”) that is quite fun; a snake game where the snake is self-aware and crazy things happen; or a game about descending into the depths to see what is there.
+
+01:07:32.761 --> 01:07:34.719
+So the output is impressive.
+
+01:07:34.719 --> 01:07:43.739
+But, especially as I turned to more serious projects, I often felt using the tool was somewhere between delightful and unnerving.
+
+01:07:43.739 --> 01:07:48.005
+Delightful because I just asked for something at it happened.
+
+01:07:48.005 --> 01:07:52.899
+And also unnerving because I just asked for something and it happened.
+
+01:07:52.899 --> 01:08:06.954
+Maps and Methods
+To see why, it helps to understand the way in which Fable gets work done, and for that I want to turn to an example I have tested on many previous AI models: building an isochrone map.
+
+01:08:06.954 --> 01:08:17.512
+This is a map that shows the distance you can travel in a given length of time, and the first one was created in 1881 showing travel times from London.
+
+01:08:17.512 --> 01:08:31.916
+No previous model did an even halfway useful job with trying to create a map like this because it involves researching thousands of potential trip distances and a lot of small judgement calls and decisions.
+
+01:08:31.916 --> 01:08:46.950
+I decided to try it on Fable using Claude Code with this prompt: i want you to build a fully researched and beautiful isochronic map that lets me pick various cities and see real isochronic lines based on real data.
+
+01:08:46.950 --> 01:08:49.117
+I want the design to be unique.
+
+01:08:49.117 --> 01:08:56.249
+You should take into account airports (and travel time to and from airports) trains, walking, driving.
+
+01:08:56.249 --> 01:09:02.193
+The data does not need to be live but should be real based on your research and data.
+
+01:09:02.193 --> 01:09:09.115
+You can start with a few cities but more general is better, this should be an entirely new project.
+
+01:09:09.115 --> 01:09:13.800
+It then suggested that it do this in the style of the original map.
+
+01:09:13.800 --> 01:09:15.828
+I agreed, and it got to work.
+
+01:09:15.828 --> 01:09:26.806
+It is worth a second looking at the transcript of the multiple hour building session the AI went through on its own, because you can see some unusual things.
+
+01:09:26.806 --> 01:09:47.993
+First, the AI launched multiple other AIs (I believe mostly the cheaper Claude Sonnet) to help it conduct research on travel times, ultimately retrieving over 2,200 specific flights, the rail schedules for trains from the TGV to the Shinkansen, and road speeds per country from multiple academic papers.
+
+01:09:47.993 --> 01:09:51.838
+And while those agents were running, it started coding.
+
+01:09:51.838 --> 01:09:59.460
+Then it launched yet more agents and tests to verify its code, all the while taking notes about its progress.
+
+01:09:59.460 --> 01:10:09.739
+The result was a fully functioning map of impressive sophistication that looked a lot like the 1881 original, but that doesn’t mean it was perfect.
+
+01:10:09.739 --> 01:10:25.961
+I noticed that a lot of remote locations (like Greenland) just contained estimates of travel time, not exact numbers, so I told Fable to fix it, including the instructions: actually get travel times to remote airports and locations.
+
+01:10:25.961 --> 01:10:34.072
+This time the AI launched a workflow, adversarial groups of agents that did research and tested each others results.
+
+01:10:34.072 --> 01:10:41.903
+It figured out how often ships sail to Pitcairn Island in the Pacific and how to get to Grise Fjord from Ottawa.
+
+01:10:41.903 --> 01:10:48.406
+And it used a tremendous number of tokens in a very short period of time (more on this soon).
+
+01:10:48.406 --> 01:10:50.364
+The results were impressive.
+
+01:10:50.364 --> 01:10:58.685
+I pushed a few more times in directions that interested me (including asking for other visualization approaches, etc.).
+
+01:10:58.685 --> 01:11:08.544
+I would recommend spending a couple minutes clicking around the results, and you can read its methods and sources at the bottom of the graph.
+
+01:11:08.544 --> 01:11:24.277
+This is probably not a useful project for you unless you really like travel and maps, but it is indicative of AI solving a hard problem involving research, math, visual development, taste, judgement, complex coding, and more.
+
+01:11:24.277 --> 01:11:27.423
+And, the unnerving part was how little I did.
+
+01:11:27.423 --> 01:11:31.479
+I gave a really ambitious instruction, the AI followed it.
+
+01:11:31.479 --> 01:11:36.443
+I gave a couple of minor pieces of feedback, and the AI figured it out.
+
+01:11:36.443 --> 01:11:38.541
+My role was extremely limited.
+
+01:11:38.541 --> 01:11:55.392
+Importantly, it was just limited in how much work I did relative to the model, it was also limited in how much control I had over how the model did things, why the model chose particular approaches, or even how in-depth its results would be.
+
+01:11:55.392 --> 01:12:03.923
+The details of the AI’s decision making are not shown to me, and the process would be too long to even be worth following.
+
+01:12:03.923 --> 01:12:16.020
+The map required the AI to make judgement calls about hundreds of little choices, and it just made them, without me understanding the choices or having a chance to weigh in.
+
+01:12:16.020 --> 01:12:24.760
+In many ways, it is miraculous (I can always ask for edits at the end) on the other, it turns AI into the ultimate black box.
+
+01:12:24.760 --> 01:12:32.452
+Working with a Mythos-class model
+The most ambitious project I got from Fable takes a little more explanation.
+
+01:12:32.452 --> 01:12:43.569
+I do a lot of research where humans produce messy answers and doing any sort of analysis requires categorize those answers properly: how innovative is an idea?
+
+01:12:43.569 --> 01:12:45.597
+why do people like this book?
+
+01:12:45.597 --> 01:12:59.372
+To figure this out, we used human researchers to make a judgement call about a piece of information, and statistically compare their answers with others to figure out whether we can trust the data.
+
+01:12:59.372 --> 01:13:10.350
+A lot of recent research has shown that AIs might be able to do this important work, but calibrating AI and human judgement has been difficult and expensive.
+
+01:13:10.350 --> 01:13:18.181
+So I asked Fable to solve the problem, first generating a complex 19 page design document and then executing it.
+
+01:13:18.181 --> 01:13:20.699
+It worked for nine and a half hours.
+
+01:13:20.699 --> 01:13:35.243
+The result was an extremely sophisticated piece of software the AI called Concord that could take in multiple datasets, calibrate human and AI responses, and then conduct complex data analysis on the results.
+
+01:13:35.243 --> 01:13:36.991
+Again, it wasn’t perfect.
+
+01:13:36.991 --> 01:13:46.360
+As an expert, I was able to spot some errors and omissions (some as a result of the design I had asked for) that I had the AI correct.
+
+01:13:46.360 --> 01:13:53.353
+But the scope of the delivery on this project, and many others, exceeded anything I had seen before.
+
+01:13:53.353 --> 01:14:01.394
+In this case, it was a piece of software that researchers have needed for years but was never profitable to create.
+
+01:14:01.394 --> 01:14:04.540
+You can now just use or modify the code here.
+
+01:14:04.540 --> 01:14:25.447
+I am sure it is not perfect (I only spent an hour working with the results), but a software engineer would iron out the remaining potential bugs that I could not find quickly (which is one reason we may need more, not less, coders in the future, to help with the explosion of new uses for software).
+
+01:14:25.447 --> 01:14:29.433
+This power goes hand in hand with strangeness and limits.
+
+01:14:29.433 --> 01:14:32.090
+Among those limits is its token usage.
+
+01:14:32.090 --> 01:14:48.312
+Fable is twice as expensive as Opus, and it burns through tokens at a rate that suggests the answer to how much it costs in production is “a lot,” though its clever delegation to cheaper models may lower the real price considerably.
+
+01:14:48.312 --> 01:14:59.290
+The guardrails for Fable also trip at the faintest hint of a security problem, defaulting to the less powerful Claude 4.8 Opus, and it happens way too often.
+
+01:14:59.290 --> 01:15:02.017
+And the jagged frontier is still there.
+
+01:15:02.017 --> 01:15:16.142
+For example, the AI still writes in the same weird style (in fact the software Fable produces bears traces of Claudisms; so do its progress reports, all that carrying the weight and earning the answer).
+
+01:15:16.142 --> 01:15:23.483
+But the deeper strangeness is how little I had to do, and how little I could see while it was being done.
+
+01:15:23.483 --> 01:15:29.707
+Last year I called this working with a wizard: you chant the spell and something happens.
+
+01:15:29.707 --> 01:15:35.930
+With Fable the spell has gotten powerful enough that I am no longer sure I am the wizard.
+
+01:15:35.930 --> 01:15:37.608
+I am closer to a patron.
+
+01:15:37.608 --> 01:15:41.873
+I describe what I want, I pay for it, and I judge the result.
+
+01:15:41.873 --> 01:15:48.796
+The conjuring happens somewhere I cannot watch, in hundreds of small choices I never get a vote on.
+
+01:15:48.796 --> 01:15:51.942
+The work has shifted from process to outcome.
+
+01:15:51.942 --> 01:15:54.180
+I no longer steer; I commission.
+
+01:15:54.180 --> 01:16:08.584
+It is possible the sidelining is temporary, just an artifact of interfaces that haven’t caught up, and that we’ll get better windows into what these models are doing and better ways to steer them midstream.
+
+01:16:08.584 --> 01:16:20.750
+It is also possible that the opposite is true: that the more capable the model, the less there is for a human to meaningfully do, and the black box is the price of the power.
+
+01:16:20.750 --> 01:16:24.596
+I suspect that is more likely to be the real direction.
+
+01:16:24.596 --> 01:16:28.442
+None of this is a loss of control in the obvious sense.
+
+01:16:28.442 --> 01:16:37.392
+I can still steer Fable, and it follows instructions remarkably well: the more ambitious the instruction, the better the result.
+
+01:16:37.392 --> 01:16:40.469
+But steering is no longer the same as doing.
+
+01:16:40.469 --> 01:16:49.559
+I brief the model, it spins up its own agents to research and write and check one another’s work, and what comes back is finished.
+
+01:16:49.559 --> 01:16:52.146
+A patron commissions a single artist.
+
+01:16:52.146 --> 01:17:01.096
+Fable is closer to a whole studio, where I am the client who signs off on the final work without ever setting foot on the floor.
+
+01:17:01.096 --> 01:17:02.443
+To markets and tech.
+
+01:17:02.443 --> 01:17:08.439
+A sharp take from the account Signulll: Meta, he argues, has become narratively homeless.
+
+01:17:08.439 --> 01:17:10.392
+meta is narratively homeless.
+
+01:17:10.392 --> 01:17:21.238
+they own the largest distribution surface in human history and yet they don't live anywhere that the ppl minting the next decade's mythology actually congregate.
+
+01:17:21.238 --> 01:17:29.456
+that's a problem for recruiting the few good ppl they still want, and for everyone betting on where the future gets built.
+
+01:17:29.456 --> 01:17:34.710
+you can't be the future from outside the layer that decides what counts as it.
+
+01:17:34.710 --> 01:17:40.908
+if i were them, i'd acquire some ppl who understand how to craft a narrative on this medium.
+
+01:17:40.908 --> 01:17:44.007
+google briefly did it but now fell flat again.
+
+01:17:44.007 --> 01:17:50.357
+The Wall Street Journal reports Apple will raise prices, driven by a memory-chip crunch.
+
+01:17:50.357 --> 01:17:58.224
+ET
+Tim Cook said price increases on Apple products are “unavoidable” due to surging memory and storage costs.
+
+01:17:58.224 --> 01:18:06.234
+Skyrocketing demand from AI companies for memory and storage chips has quadrupled their prices since last year.
+
+01:18:06.234 --> 01:18:15.472
+Morgan Stanley estimates memory wafers for consumer tech will fall 15% short of demand by 2027 as suppliers give priority to AI.
+
+01:18:15.472 --> 01:18:19.874
+This summary was generated with AI and reviewed by an editor.
+
+01:18:19.874 --> 01:18:24.854
+Read more about how we use artificial intelligence in our journalism.
+
+01:18:24.854 --> 01:18:49.824
+Tim Cook said price increases on Apple products are “unavoidable” due to surging memory and storage costs.View more
+Apple AAPL -1.10%decrease; down pointing triangle plans to raise prices on its products to offset the surging costs of memory and storage chips, Chief Executive Tim Cook said in an exclusive interview with The Wall Street Journal.
+
+01:18:49.824 --> 01:18:54.010
+“Unfortunately, price increases are unavoidable,” he said.
+
+01:18:54.010 --> 01:19:16.815
+“We’re doing our best to mitigate the huge increases that are being passed to us, and we’ve been trying to shield our customers from the increases, but the situation has become unsustainable.”
+Cook declined to offer details on the timing or scale of the planned price increases, nor which products would be affected.
+
+01:19:16.815 --> 01:19:27.207
+Apple’s next major product launch is likely to be in September when it releases the iPhone 18 lineup, expected to include a new foldable iPhone.
+
+01:19:27.207 --> 01:19:31.970
+Price increases, especially for Macs and iPads, could come sooner.
+
+01:19:31.970 --> 01:19:38.032
+Apple raised the starting price of the Mac Mini last month in between launch events.
+
+01:19:38.032 --> 01:19:53.260
+Skyrocketing demand for memory and storage chips from artificial-intelligence companies has pushed up their cost so much that Apple would have to raise device prices substantially to maintain its profit margins.
+
+01:19:53.260 --> 01:20:06.033
+Passing the higher cost on to consumers while maintaining its profit margin would add about $270 to the price of the next iPhone Pro model, estimates research firm TechInsights.
+
+01:20:06.033 --> 01:20:24.941
+[This story explains the math behind a possible price tag of $1,299 for the anticipated iPhone 18 Pro.]
+Chips for memory and storage are key components inside most computing devices, including smartphones, laptops, game consoles, medical equipment and even cars.
+
+01:20:24.941 --> 01:20:36.272
+But now AI servers are gobbling up rapidly increasing volumes of those chips, so even a company as rich and powerful as Apple is struggling to secure supply.
+
+01:20:36.272 --> 01:20:49.551
+Since last year, when Google, Microsoft, Meta and Amazon began announcing big increases in their capital spending budgets, the prices for memory and storage chips have both quadrupled.
+
+01:20:49.551 --> 01:20:54.314
+TechInsights expects both prices to continue increasing into 2027.
+
+01:20:54.314 --> 01:21:12.284
+Memory, also called DRAM, and storage, also called NAND, are like elements of a mid-20th-century office: The memory is a desk that holds all the papers a worker needs to perform a task, while storage is the filing cabinet that holds everything else.
+
+01:21:12.284 --> 01:21:21.233
+Smartphones use DRAM memory to run apps currently in use; they use NAND storage to file away photos and videos, for example.
+
+01:21:21.233 --> 01:21:37.976
+Cook said prices for memory and storage are both issues for the company, though he focused on the DRAM market in particular, calling out the increased allocations going to so-called high-bandwidth memory that is used for AI servers.
+
+01:21:37.976 --> 01:21:47.357
+“There’s less supply at a time when consumers want devices and the memory guys are passing along huge price increases,” said Cook.
+
+01:21:47.357 --> 01:21:54.502
+“We definitely need memory pricing and supply to return to reasonable levels for consumer products.
+
+01:21:54.502 --> 01:22:04.389
+That’s the bottom line.”
+Three companies dominate the market for DRAM memory: Samsung and SK Hynix in South Korea, and Micron in the U.S.
+
+01:22:04.389 --> 01:22:10.379
+Makers of NAND storage include those three companies as well as Kioxia and Sandisk.
+
+01:22:10.379 --> 01:22:23.730
+Their stock prices, along with their profits, have exploded over the past twelve months: Micron and SK Hynix shares have risen more than 800% while Kioxia and Sandisk have risen 4,600%.
+
+01:22:23.730 --> 01:22:36.937
+Memory companies are building more factories: Morgan Stanley forecasts that production capacity for DRAM wafers, the silicon discs on which chips are patterned, will grow 30% by 2027.
+
+01:22:36.937 --> 01:22:47.185
+Yet as suppliers prioritize the specialized AI memory, wafers for consumer tech will fall up to 15% short of demand, Morgan Stanley estimates.
+
+01:22:47.185 --> 01:22:59.020
+China has national champion companies in memory and storage, but due to national-security rules, American companies would likely require licenses to work with them.
+
+01:22:59.020 --> 01:23:19.588
+When asked if those restrictions should be loosened, Cook said: “I think everything needs to be on the table,” adding, “I think we should look at all supply.”
+Companies that make PCs, game consoles, smartphones and more have raised prices, including Hewlett-Packard, Dell and Nintendo.
+
+01:23:19.588 --> 01:23:36.476
+A consortium of industry associations recently sent a letter to Treasury Secretary Scott Bessent and Commerce Secretary Howard Lutnick complaining about the overallocation of memory to AI buyers and asking for help to increase supply.
+
+01:23:36.476 --> 01:23:42.321
+Morgan Stanley estimates a 15% bump for prices of smartphones and PCs in the U.S.
+
+01:23:42.321 --> 01:23:43.043
+this year.
+
+01:23:43.043 --> 01:23:51.847
+This price hike will have a limited impact on the consumer price index, which has only a small weighting for such devices.
+
+01:23:51.847 --> 01:23:58.054
+Yet any price increase on the popular iPhone is likely to grab Washington’s attention.
+
+01:23:58.054 --> 01:24:07.652
+Compounding the issue is Apple’s need for additional DRAM to support more AI features, including a rebooted Siri announced last week.
+
+01:24:07.652 --> 01:24:18.477
+And the company has long used NAND storage upgrades to boost profits, charging $100 to $200 for extra increments that cost it just a fraction of that.
+
+01:24:18.477 --> 01:24:25.333
+In the interview, Cook said Apple stands ready to use its cash reserves to boost memory supply.
+
+01:24:25.333 --> 01:24:31.396
+“We’re willing to use our balance sheet to help be a part of the solution,” he said.
+
+01:24:31.396 --> 01:24:36.520
+“Obviously, more capacity is needed.”
+Cook declined to offer specifics.
+
+01:24:36.520 --> 01:24:45.180
+It is unclear how Apple could match, let alone beat, the deal terms that AI hyperscalers are offering to lock up supply.
+
+01:24:45.180 --> 01:24:57.665
+Those companies are signing three-to-five year agreements with huge cash prepayments that Apple is unlikely willing to match, given its long history of disciplined spending.
+
+01:24:57.665 --> 01:25:05.315
+Cook said Apple wouldn’t use its cash and silicon expertise to build its own memory and storage factories.
+
+01:25:05.315 --> 01:25:07.913
+“We can’t do everything,” said Cook.
+
+01:25:07.913 --> 01:25:23.140
+“We know what we’re good at.”
+Apple spends in the low tens of billions of dollars per year on memory and storage, according to people familiar with its costs, making it one of the largest customers in the world.
+
+01:25:23.140 --> 01:25:33.099
+Historically it has used its heft to wring the lowest prices out of suppliers, playing them off each other and leaving them little profit.
+
+01:25:33.099 --> 01:25:38.945
+As AI companies have stormed into the market, suddenly Apple has to wait in line.
+
+01:25:38.945 --> 01:25:51.647
+Cook said during his time working in the electronics supply chain, from IBM to Compaq to Apple, he had never seen a commodity price swing like the one from the past six months.
+
+01:25:51.647 --> 01:25:54.678
+“This is a hundred-year flood,” said Cook.
+
+01:25:54.678 --> 01:26:02.472
+“I’ve never seen anything like it in any area in over 40 years.”
+Copyright ©2026 Dow Jones and Company, Inc.
+
+01:26:02.472 --> 01:26:03.915
+All Rights Reserved.
+
+01:26:03.915 --> 01:26:13.441
+87990cbe856818d5eddac44c7b1cdeb8
+Rolfe Winkler is a technology reporter covering Apple for The Wall Street Journal in San Francisco.
+
+01:26:13.441 --> 01:26:27.225
+He previously covered digital health companies for the Journal, leading investigations into internet companies that exploited social media and e-commerce strategies to peddle dangerous drugs.
+
+01:26:27.225 --> 01:26:38.051
+This work sparked government probes into Cerebral and federal criminal charges against executives at Done Global, companies that sold Adderall online.
+
+01:26:38.051 --> 01:26:49.165
+He also profiled men who weren't given adequate warnings before they bought drugs from Hims and Hers Health, and later suffered debilitating side effects.
+
+01:26:49.165 --> 01:26:59.485
+Rolfe previously broke news about the feature roadmap for the Apple Watch and uncovered Elon Musk's brain-computer interface company Neuralink.
+
+01:26:59.485 --> 01:27:12.186
+His 2017 investigation into the Chicago startup Outcome Health led directly to federal felony convictions or guilty pleas of six people including Outcome's top four executives.
+
+01:27:12.186 --> 01:27:23.372
+Rolfe has received awards from the National Press Club, the New York Press Club, Scripps-Howard and the Society for Advancing Business Editing and Writing.
+
+01:27:23.372 --> 01:27:30.589
+Before his journalism career, he was a CFA Charterholder and a member of Actor's Equity Association.
+
+01:27:30.589 --> 01:27:35.672
+And Noah Smith asks whether China, Incorporated, is about to be zombified.
+
+01:27:35.672 --> 01:27:36.771
+Will China, Inc.
+
+01:27:36.771 --> 01:27:37.664
+be zombified?
+
+01:27:37.664 --> 01:27:40.824
+A question surprisingly few people are asking.
+
+01:27:40.824 --> 01:27:44.327
+The photo above is not from China; it’s from Japan.
+
+01:27:44.327 --> 01:27:47.418
+In the 1970s, Daiei was Japan’s top retailer.
+
+01:27:47.418 --> 01:28:03.423
+But after Japan’s asset bubble burst around 1990, it became Japan’s most famous “zombie” company — staggering along unprofitably, kept afloat by a constant stream of below-market-rate loans from UFJ Bank and other big Japanese banks.
+
+01:28:03.423 --> 01:28:14.069
+Eventually the company was acquired by Aeon, a more successful retailer, and its once-storied brand is slated to be retired for good in the next few years.
+
+01:28:14.069 --> 01:28:28.906
+I tend to be very skeptical of comparisons between post-1990 Japan and post-2021 China, because there are just so many differences between the two economies (and between the global economic environments at the time).
+
+01:28:28.906 --> 01:28:39.553
+Their industrial policies are different, their trading relationships are different, their bubbles and busts happened for very different reasons, and so on.
+
+01:28:39.553 --> 01:28:44.842
+But in the case of “zombie” companies, there may be some important parallels.
+
+01:28:44.842 --> 01:28:50.750
+What’s important about Daiei is not how it failed, but why it didn’t fail much sooner.
+
+01:28:50.750 --> 01:29:03.594
+Caballero, Hoshi, and Kashyap wrote a paper in 2008 arguing that “zombie” companies like Daiei held the Japanese economy back during the 1990s (and, in some cases, even beyond the 1990s).
+
+01:29:03.594 --> 01:29:17.951
+The basic story is that after 1990, the Japanese economy slowed down, and lots of companies that used to be profitable — especially in the construction, retail, and trading sectors — were no longer profitable.
+
+01:29:17.951 --> 01:29:21.042
+These companies owed a lot of money to banks.
+
+01:29:21.042 --> 01:29:28.941
+If they stopped being able to pay back their loans, the banks would be forced to recognize bad debt on their books.
+
+01:29:28.941 --> 01:29:38.901
+This would get them in trouble with regulators (because of capital requirements), and it would also get them in trouble with the Japanese public.
+
+01:29:38.901 --> 01:29:48.723
+So what the banks did was to lend even more money to the failing companies that already owed them a lot of money, at very cheap interest rates.
+
+01:29:48.723 --> 01:29:57.241
+The new loans were used to pay back the old loans, and the new loans would be classified on the bank’s books as “good” debt.
+
+01:29:57.241 --> 01:30:08.094
+This process — known as “evergreening” — kept banks from ever having to acknowledge their losses:
+Peek and Rosengren (2005) document this empirically as well.
+
+01:30:08.094 --> 01:30:15.031
+Evergreening kept a bunch of companies afloat — like Daiei — that had utterly broken business models.
+
+01:30:15.031 --> 01:30:25.541
+Theoretically, the companies could have eventually pivoted their business models and recovered, or Japan’s economy could have started booming again, etc.
+
+01:30:25.541 --> 01:30:27.808
+In practice, this never happened.
+
+01:30:27.808 --> 01:30:40.103
+Caballero, Hoshi, and Kashyap argue that evergreening was very bad for the Japanese economy, because it hoovered up scarce resources that better companies could have used to grow.
+
+01:30:40.103 --> 01:30:47.521
+With all of those crappy loans clogging up their books, Japanese banks couldn’t lend to healthier companies.
+
+01:30:47.521 --> 01:30:56.863
+With big zombies like Daiei still able to employ large amounts of Japan’s best managers, young scrappy upstarts were deprived of talent.
+
+01:30:56.863 --> 01:31:07.922
+The authors argue that keeping all of this labor and capital locked up inside doomed companies contributed significantly to Japan’s long productivity stagnation.
+
+01:31:07.922 --> 01:31:11.563
+Why did the Japanese government allow this to happen?
+
+01:31:11.563 --> 01:31:16.783
+Preserving employment at the zombie companies was probably a big part of it.
+
+01:31:16.783 --> 01:31:30.796
+Japan had a strong tradition of job security at that point in time, and to throw so many people out of work — even if they could have gotten new jobs eventually — would have been seen as cruel and unfair.
+
+01:31:30.796 --> 01:31:32.994
+Social unrest was a possibility.
+
+01:31:32.994 --> 01:31:37.253
+Bank bailouts may also have been deeply politically unpopular.
+
+01:31:37.253 --> 01:31:50.372
+In any case, whatever the reason, throughout the 1990s the government supported banks with various capital injections and regulatory forbearance, without forcing banks to cut off the zombies.
+
+01:31:50.372 --> 01:31:51.815
+Anyway, that’s Japan.
+
+01:31:51.815 --> 01:31:56.280
+The question is whether something like this will happen in China.
+
+01:31:56.280 --> 01:32:05.072
+China’s experience with its real estate bubble and bust doesn’t exactly parallel Japan’s, but there are some broad similarities.
+
+01:32:05.072 --> 01:32:16.749
+Since 2021, there has been a broad economic slowdown (probably more severe than the official numbers suggest), and a long-lasting chill in real-estate-related industries.
+
+01:32:16.749 --> 01:32:31.998
+This has predictably led to a rise in the number of loss-making companies:
+You’ll notice on this chart that the share of non-performing loans has actually gone down since 2021, even as fewer companies are turning a profit.
+
+01:32:31.998 --> 01:32:38.592
+That suggests that lots of Chinese companies are being kept on life support by cheap bank loans.
+
+01:32:38.592 --> 01:32:49.857
+Here’s the Rhodium Group:
+Some concrete data points suggest that China’s evergreening of debt is more widespread than is commonly the case in most market economies.
+
+01:32:49.857 --> 01:33:07.373
+The ratio of banks’ reported non-performing loans has decreased over the past years, while the share of loss-making enterprises increased…This would indicate Chinese banks have been sitting on large volumes of NPLs that have not yet been fully recognized.
+
+01:33:07.373 --> 01:33:38.489
+This is an open secret: The National Audit Office recently claimed in an annual audit report to the NPC that 16 of 43 audited banks last year had NPL levels that were double the officially reported figure…
+Loan rollovers are a pervasive phenomenon in China…[T]he financial system…served as a shock absorber, channeling resources to enterprises facing losses to maintain output and prevent the defaults and bankruptcies that occurred in market economies.
+
+01:33:38.489 --> 01:34:25.267
+Another Rhodium report finds that the proportion of loans made below benchmark rates has risen significantly since 2021, even though benchmark rates are lower than they were back then:
+And the Dallas Fed has documented how more and more Chinese companies, especially in the real estate sector, aren’t making enough money to pay the interest on their loans:
+All this — falling official NPLs, much more below-market lending, companies unable to pay their interest expenses, widespread suspicion that many of the companies whose loans are “performing” will never be able to repay those loans — matches the general pattern that Hoshi and Kashyap (2000) documented in post-bubble Japan.
+
+01:34:25.267 --> 01:34:34.815
+Banks have taken a bunch of losses, but have refused to recognize those losses, using a flood of cheap debt to keep their borrowers afloat.
+
+01:34:34.815 --> 01:34:37.631
+A bunch of people have warned about this.
+
+01:34:37.631 --> 01:34:49.995
+Here’s Rhodium:
+Because of the political incentives shaping China’s financial system, banks in China tend to extend or roll over debt to poorly performing or loss-making companies.
+
+01:34:49.995 --> 01:35:26.263
+This can have some of the same effects as a subsidy, by removing incentives for companies to stay profitable and isolating them from market forces that would otherwise lead to their restructuring or bankruptcy….Evergreening of credit, therefore, allows firms to…[reduce] domestic and global prices to unprofitable levels[.]
+And here’s the Dallas Fed:
+There is mounting evidence of “zombie lending” in China, banks rolling over bad loans to unprofitable firms and allowing the status quo to continue rather than recognize losses.
+
+01:35:26.263 --> 01:36:32.342
+And here’s a Business Times story about how China’s government has allowed and even encouraged zombification, much as Japan did in the 1990s:
+It’s impossible to quantify the true extent of the [bad debt] problem, though most economists say the ratio of bad loans is significantly higher than the 1.5 per cent official rate…One analyst at Absolute Strategy Research in London pegs it at about 10 per cent…Others say it could be double that amount…
+While the [banks’] leniency [toward borrowers], largely condoned by regulators in Beijing, has helped maintain financial stability over the past few years, it also means the banking system is recycling capital into unproductive companies rather than spurring real growth in healthy firms…
+[Government] officials have moved to bolster the nation’s six biggest banks with more than US$100 billion in fresh capital…[R]ather than cracking down on deadbeat borrowers, China’s banks are encouraged to cut them some slack.
+
+01:36:32.342 --> 01:36:53.155
+Regulators have for years urged the big banks to keep their reported bad loan ratio under 2 per cent, according to sources familiar with the guidance…As a result, banks routinely roll over maturing loans, extend repayment periods, or allow interest to be capitalised to avoid triggering NPL recognition.
+
+01:36:53.155 --> 01:37:00.986
+Now you might be tempted to think — and I’ve seen a few people argue — that this only matters in a market economy.
+
+01:37:00.986 --> 01:37:07.992
+In a market economy, undercapitalized banks matter because banks have to succeed or fail on their own.
+
+01:37:07.992 --> 01:37:27.568
+In a state-directed economy like China’s, the theory goes, debt on the banks’ books might as well be on the government’s books.1 Banks can keep lending no matter how much bad debt they have, because the only entity that could punish them — the Chinese government — wants them to do so.
+
+01:37:27.568 --> 01:37:38.559
+But while government control might avert a financial crisis, it doesn’t automatically solve the zombie problem, or make the comparison with Japan inappropriate.
+
+01:37:38.559 --> 01:37:47.076
+First of all, it would be a mistake to see Japan’s government in the 1990s as operating at arm’s length from Japanese banks.
+
+01:37:47.076 --> 01:37:53.877
+It most certainly did not; in fact, it acted to support the banks that were supporting the zombies.
+
+01:37:53.877 --> 01:38:07.958
+The government bailed out the banks, deliberately turned a blind eye to the zombie problem, and encouraged banks to keep on lending to healthier companies despite the unrecognized bad loans on their books.
+
+01:38:07.958 --> 01:38:16.819
+That’s not too different from what China’s government seems to have done in response to the real estate bust, at least initially.
+
+01:38:16.819 --> 01:38:27.191
+But simply having the government urge (or order) banks to keep lending didn’t solve the zombie problem in Japan, and it won’t solve it in China either.
+
+01:38:27.191 --> 01:38:36.327
+Even if the zombie companies don’t end up competing with healthier companies for capital, they compete with them for other resources.
+
+01:38:36.327 --> 01:38:49.858
+They compete for labor — workers who could be working at young, growing, healthy companies are instead being paid to continue to work for unproductive companies that are just spinning their wheels.
+
+01:38:49.858 --> 01:38:54.598
+They also compete for raw materials, for land, for energy, and so on.
+
+01:38:54.598 --> 01:38:58.582
+These resources are not in infinite supply, even in China.
+
+01:38:58.582 --> 01:39:12.251
+As long as unproductive zombie companies are hiring workers, hoovering up metals and chemicals and watts of electricity, and taking up prime real estate, they’re holding back the rest of the economy.
+
+01:39:12.251 --> 01:39:19.738
+This doesn’t just manifest as higher costs for healthy companies — it also shows up as increased competition.
+
+01:39:19.738 --> 01:39:32.102
+In 1990s Japan, if a new retailer wanted to enter the scene, it had to compete with Daiei, the unproductive behemoth that was essentially being paid by banks to produce below cost.
+
+01:39:32.102 --> 01:39:34.232
+The same will be true in China.
+
+01:39:34.232 --> 01:39:40.482
+In fact, this may be a reason for the “involution” that Chinese companies are experiencing.
+
+01:39:40.482 --> 01:39:50.786
+In the wake of the real estate bust, China’s government directed banks to lend to manufacturing companies instead of to real estate-related companies.
+
+01:39:50.786 --> 01:39:57.105
+They did this (though some of the loans ended up sneaking back into the real estate sector).
+
+01:39:57.105 --> 01:40:06.172
+In fact, a large percent of the “subsidies” that China dishes out to its manufacturing companies is through below-market-rate loans.
+
+01:40:06.172 --> 01:40:13.316
+Some of these manufacturing companies will be successful and efficient — indeed, many already have been.
+
+01:40:13.316 --> 01:40:16.338
+But others are unproductive and inefficient.
+
+01:40:16.338 --> 01:40:25.749
+Instead of letting these die, China’s banks may keep them on as zombies as well, paying them to compete with China’s healthier companies.
+
+01:40:25.749 --> 01:40:44.432
+Here’s Alicia Garcia-Herrero from back in March:
+In many sectors, including…electric vehicles, solar panels, batteries, and other green technologies…Chinese firms…keep selling at rock-bottom levels, sometimes below what it costs to produce, just to hold onto market share.
+
+01:40:44.432 --> 01:41:21.181
+A growing number of these companies cannot earn enough revenue to even service their debt…These “zombie” companies survive only because banks roll over loans and local governments provide subsidies to avoid job losses and keep tax revenues flowing…In newer, high-priority sectors like green tech, the share of zombie companies has hit 30 percent of total listed companies…
+Without real productivity advances, [zombies] still join the price-slashing frenzy to stay in the game thanks to external support from banks or local governments.
+
+01:41:21.181 --> 01:41:32.515
+They cut prices aggressively…The outcome is predictable: collapsing profit margins across the board, even for the better companies, whose productivity is increasing.
+
+01:41:32.515 --> 01:41:44.329
+When we Westerners think about the effect of Chinese zombification, we often think about the flood of cheap exports threatening to deindustrialize Europe and other regions.
+
+01:41:44.329 --> 01:41:55.938
+But while that export dominance might seem like a victory to China’s mercantilist leaders, it’s a double-edged sword, because zombification reduces productivity at home.
+
+01:41:55.938 --> 01:42:02.120
+In the long run, lower productivity hurts growth, despite the temporary bump from exports.
+
+01:42:02.120 --> 01:42:10.363
+In other words, China’s fusion between the financial system and the state may have made zombification worse, not better.
+
+01:42:10.363 --> 01:42:25.337
+The Chinese state is not a ruthlessly efficient allocator of capital; it has sociopolitical goals just like any other state, and it fears the unrest that could result from widespread corporate failure and unemployment.
+
+01:42:25.337 --> 01:42:34.610
+Yes, it can tell banks to lend to manufacturers instead of property developers, but that just ends up adding more zombies to the horde.
+
+01:42:34.610 --> 01:42:41.342
+And at some point, even state-owned and state-directed banks probably do care about profitability.
+
+01:42:41.342 --> 01:42:53.706
+Yes, the government can bail out any bank at will, but if you’re the bank executive or manager who dished out the bad loans and made a bailout necessary, your career might be over.
+
+01:42:53.706 --> 01:43:10.672
+This might be why corporate loans have started to fall slightly from the torrid pace of 2023-24:
+Ultimately, when people write the story of China’s economy in the 2020s, zombification could end up being more fundamental to that story than exports.
+
+01:43:10.672 --> 01:43:20.907
+The parallels with Japan are not always real, but they’re real in this case — and so far, China’s government seems to be walking into a similar trap.
+
+01:43:20.907 --> 01:43:26.471
+Update: In the comments, Jack Lowenstein asks a very important question: So what?
+
+01:43:26.471 --> 01:43:33.683
+Even if zombification proceeds in China, what are the downsides from the point of the Chinese government?
+
+01:43:33.683 --> 01:43:42.544
+He writes:
+I think the critical difference between Japan’s “extend and pretend” policies and China’s is the geopolitical element.
+
+01:43:42.544 --> 01:43:50.580
+Japan feared domestic social and political disruption - and was heavily influenced by “free market” vested interests.
+
+01:43:50.580 --> 01:43:59.510
+There was also a degree of denial by MOF and METI that the gogo years of the post war period up to the mid 1980s were really over.
+
+01:43:59.510 --> 01:44:08.302
+The CCP and the PRC however are driven by the deliberate aim of de industrialization of critical parts of the OECD supply chain.
+
+01:44:08.302 --> 01:44:16.202
+Loans and other support to the companies that will deliver this outcome are not going to stop for economic reasons.
+
+01:44:16.202 --> 01:44:26.436
+Sadly policy makers in most of the countries suffering these effects are ideologically unwilling to enact anti-dumping and other defenses to respond.
+
+01:44:26.436 --> 01:44:29.184
+So zombification will not stop in China.
+
+01:44:29.184 --> 01:44:32.412
+Yes the population of the PRC will pay a price.
+
+01:44:32.412 --> 01:44:35.366
+But since when did the CCP care about that?
+
+01:44:35.366 --> 01:44:41.823
+This is a very important question, and I should have probably gone into that more in the post.
+
+01:44:41.823 --> 01:44:49.928
+Here was my response to Jack in the comments:
+I think some of these are real differences, but perhaps not all of them.
+
+01:44:49.928 --> 01:44:57.347
+“Japan feared domestic social and political disruption” <-- I actually don’t think this is a big difference.
+
+01:44:57.347 --> 01:45:07.238
+China is worried about social and political disruption as well -- just look at how fast Xi ended Zero Covid after some small scattered protests.
+
+01:45:07.238 --> 01:45:12.870
+The old social compact in China was “growth in exchange for political quiescence”.
+
+01:45:12.870 --> 01:45:20.495
+But with rapid growth now over, that social compact is gone, so the possibility for unrest is definitely there.
+
+01:45:20.495 --> 01:45:32.516
+“There was also a degree of denial by MOF and METI that the gogo years of the post war period up to the mid 1980s were really over.” <-- I’m not sure this is different either.
+
+01:45:32.516 --> 01:45:47.284
+China has been overstating its growth since the bubble burst in 2021 ( This is often a tool the government uses to “smooth” growth between good and bad years ( suggesting that they think fast growth might come back.
+
+01:45:47.284 --> 01:45:56.145
+“The CCP and the PRC however are driven by the deliberate aim of de industrialization of critical parts of the OECD supply chain.
+
+01:45:56.145 --> 01:46:08.852
+Loans and other support to the companies that will deliver this outcome are not going to stop for economic reasons.” <-- This is true, and I think this is an argument FOR zombification.
+
+01:46:08.852 --> 01:46:16.958
+Unproductive, unprofitable companies that fill supply chain gaps will continue to be supported with evergreened loans.
+
+01:46:16.958 --> 01:46:23.483
+So the question becomes: What are the downsides of zombification from the regime’s perspective?
+
+01:46:23.483 --> 01:46:26.574
+That’s a topic I should have considered more.
+
+01:46:26.574 --> 01:46:38.320
+One answer is “social unrest” -- if slow growth makes the repressiveness of China’s regime less tolerable, then we could see popular anger at the industrial-policy regime.
+
+01:46:38.320 --> 01:46:48.211
+Remember that Japan was a very free society, where people could pivot from the pursuit of money to the pursuit of lifestyle and art and leisure.
+
+01:46:48.211 --> 01:46:50.753
+That’s not necessarily true in China.
+
+01:46:50.753 --> 01:46:55.698
+Another possibility is that eventually China becomes more like the USSR.
+
+01:46:55.698 --> 01:47:02.087
+The USSR was famously unproductive, because it insisted on onshoring its entire supply chain.
+
+01:47:02.087 --> 01:47:16.168
+Right now, China looks hyper-competitive in a bunch of high-tech industries, but if zombies suck up more and more labor and other resources (including compute), that competitiveness could narrow over time.
+
+01:47:16.168 --> 01:47:28.395
+Finally, there are fiscal dangers ( When Europeans buy cheap Chinese EVs, part of the consumer surplus they receive comes out of the pockets of Chinese taxpayers and bondholders.
+
+01:47:28.395 --> 01:47:56.420
+Japan’s zombification caused it to run up an enormous amount of debt, which it was able to carry safely only thanks to A) persistently low demand and low natural interest rates, and B) the government’s ability to buy overseas assets that performed extremely well ( Now that the first of those has gone away, Japan’s government debt IS becoming a problem, with a plunging exchange rate and creeping inflation.
+
+01:47:56.420 --> 01:48:05.762
+So while China’s government can get away with “damn the economics, full speed ahead” for a while, eventually I think something breaks...
+
+01:48:05.762 --> 01:48:19.637
+And since that debt is owed almost entirely domestically, the theory says that the debt doesn’t really matter in a macroeconomic sense; it’s just some Chinese people owing money to other Chinese people.
+
+01:48:19.637 --> 01:48:21.896
+A turn to attention and society.
+
+01:48:21.896 --> 01:48:28.743
+Noah Smith again, with an uncomfortable question: are you finally ready to admit it's the phones?
+
+01:48:28.743 --> 01:48:32.061
+Are you finally ready to admit it's the phones?
+
+01:48:32.061 --> 01:48:37.074
+We didn't evolve to live our lives as terminals of a digital hive-mind.
+
+01:48:37.074 --> 01:48:37.356
+“No.
+
+01:48:37.356 --> 01:48:44.486
+I am Hugh.” — Hugh
+I remember the first time I heard about the invention of the iPhone, back in 2007.
+
+01:48:44.486 --> 01:49:07.923
+My friend, who followed Apple products with an almost religious zeal — there were many such people in those days — entered the room and announced “This is the convergence!” We spent the next few minutes gaping in awe at the idea that every single piece of portable consumer electronics was about to be combined into a single device.
+
+01:49:07.923 --> 01:49:10.888
+For many, it felt like a messianic moment.
+
+01:49:10.888 --> 01:49:17.524
+The iPhone was probably the last big innovation that we Americans embraced as a whole society.
+
+01:49:17.524 --> 01:49:20.277
+Everybody had an iPhone, or wanted one.
+
+01:49:20.277 --> 01:49:23.454
+Engineers loved how the thing was engineered.
+
+01:49:23.454 --> 01:49:35.596
+Humanities PhD students showed off the latest model at parties and admired the sleek design.1 Kids in working class neighborhoods were glued to their iPhones in math class.
+
+01:49:35.596 --> 01:49:45.126
+It was a supercomputer in your pocket, a voice for the voiceless, the tricorder and the communicator from Star Trek, all that and more.
+
+01:49:45.126 --> 01:49:46.679
+It was also big money.
+
+01:49:46.679 --> 01:49:57.339
+Years before Benedict Evans wrote “The smartphone is the new sun”, every ambitious tech entrepreneur and content creator in America was in on the game.
+
+01:49:57.339 --> 01:50:09.764
+Social media — that infinitely scrolling vertical feed — was the killer app of the smartphone, what the spreadsheet had been for the PC or e-commerce had been for the internet.
+
+01:50:09.764 --> 01:50:17.529
+In 2012, Facebook’s monster IPO kicked off a gold rush, and everyone moved to San Francisco to strike it rich.
+
+01:50:17.529 --> 01:50:23.106
+But you didn’t need to be a tech entrepreneur in order to get in on the action.
+
+01:50:23.106 --> 01:50:33.483
+The smartphone meant far more eyeballs glued to far more screens for far more minutes of the day, and that meant dollar signs for content creators.
+
+01:50:33.483 --> 01:50:40.401
+YouTubers, Instagram fashion influencers, and Twitter activists became whole new economic classes.
+
+01:50:40.401 --> 01:50:47.955
+Old-style content businesses like newspapers and TV networks saw their doom, but also a potential lifeline.
+
+01:50:47.955 --> 01:51:00.238
+(Eventually even econ bloggers got our piece of the pie; plenty of you signed up for this blog through a scrollable app.)
+Beautiful design coupled with brilliant engineering.
+
+01:51:00.238 --> 01:51:02.215
+Technology anyone could use.
+
+01:51:02.215 --> 01:51:06.027
+Economic opportunity for the masses and for the elite.
+
+01:51:06.027 --> 01:51:14.075
+A way to have your ideas and opinions heard by millions of people thousands of miles away, at any hour of any day.
+
+01:51:14.075 --> 01:51:20.358
+No wonder Steve Jobs was the last technologist that everyone agreed was an American hero.
+
+01:51:20.358 --> 01:51:27.205
+But when I recall that fateful day in 2007, I remember not joy, but a sudden surge of foreboding.
+
+01:51:27.205 --> 01:51:30.453
+That was strange, and out of character for me.
+
+01:51:30.453 --> 01:51:43.160
+I’ve always been a technophile at heart — I grew up as a hardcore Star Trek fan, and until that moment in 2007, each new marvel — broadband, the internet, the laptop computer, etc.
+
+01:51:43.160 --> 01:51:47.748
+— had felt like it was moving us toward that bold utopian future.
+
+01:51:47.748 --> 01:51:49.584
+The iPhone felt different.
+
+01:51:49.584 --> 01:51:59.326
+Some small voice in the back of my head told me: “This is a mistake.” And though I tried to ignore that voice for many years, it remained.
+
+01:51:59.326 --> 01:52:01.091
+What was I worried about?
+
+01:52:01.091 --> 01:52:14.856
+I think some part of me knew that someday, I would end up saying something like this:
+The internet was wonderful because it was a place you could go — a complement to real life, not a substitute.
+
+01:52:14.856 --> 01:52:21.633
+The iPhone promised to put that fantasy universe in our pockets 24/7, and we would never escape.
+
+01:52:21.633 --> 01:52:39.282
+It would be physically possible to turn off our phones, of course, but it wouldn’t be socially possible — you could always touch grass, but after everyone had an iPhone, that would be the only conduit through which you could touch another human mind.
+
+01:52:39.282 --> 01:52:45.353
+The idea of perpetually tying every human into a global hive mind tripped alarm bells.
+
+01:52:45.353 --> 01:53:00.884
+It reminded me too much of the hive minds I had seen depicted in science fiction nightmares — the Borg from Star Trek, the Blight from A Fire Upon the Deep, the Human Instrumentality Project from Neon Genesis Evangelion.
+
+01:53:00.884 --> 01:53:10.485
+Humans were meant to be individuals — unique, independent incubators of ideas and desires, not terminals or the fingers of a world-mind.
+
+01:53:10.485 --> 01:53:16.626
+We had spent centuries trying to escape the small, localized versions of the hive mind.
+
+01:53:16.626 --> 01:53:24.674
+The printing press, the car and the telephone had offered freedom from the crushing conformity of small-town life.
+
+01:53:24.674 --> 01:53:33.639
+When broadcast television threatened to smother us with a centrally dictated monoculture, it sparked a decades-long resistance.
+
+01:53:33.639 --> 01:53:47.546
+When the internet arrived, we spent two decades using it to revel in our individuality — we made our personal websites, started blogs, joined small online communities centered around our interests.
+
+01:53:47.546 --> 01:53:54.959
+Sometime around 2014 or 2015 we woke up to the fact that the world of the Old Internet no longer existed.
+
+01:53:54.959 --> 01:54:00.748
+“The internet” no longer meant the Web — it meant a tiny handful of big platforms.
+
+01:54:00.748 --> 01:54:09.289
+Twitter and Reddit for screaming about politics, Facebook and Instagram for being jealous of your friends’ vacation pics.
+
+01:54:09.289 --> 01:54:14.513
+Gone were the days of painting our individuality on the canvas of the Web.
+
+01:54:14.513 --> 01:54:24.467
+The platforms were the hive minds, we were the neurons, and the smartphone was the axon that kept each of us wired tight into the collective.
+
+01:54:24.467 --> 01:54:35.056
+“‘Social media is bad,’ he typed on social media!!” This is the perpetual and instantaneous response of many of the neurons…er, people…in my timeline.
+
+01:54:35.056 --> 01:54:40.210
+Indeed, if social media is so bad, why don’t you just put down the phone?
+
+01:54:40.210 --> 01:54:46.351
+But this idea displays a fundamental misunderstanding of the nature of network effects.
+
+01:54:46.351 --> 01:54:51.716
+Suppose I decide to get off Instagram and go play pickup basketball instead.
+
+01:54:51.716 --> 01:54:58.705
+If everyone else is on Instagram instead of playing pickup basketball, who am I going to play with?
+
+01:54:58.705 --> 01:55:05.906
+This is an extreme and simplified example, obviously, but the intuition here comes from real research.
+
+01:55:05.906 --> 01:55:06.965
+Bursztyn et al.
+
+01:55:06.965 --> 01:55:14.024
+(2024) have a paper called “When Product Markets Become Collective Traps: The Case of Social Media”.
+
+01:55:14.024 --> 01:55:22.072
+Here’s a quick summary:
+While one would typically assume that a popular product benefits its users…Bursztyn et al.
+
+01:55:22.072 --> 01:55:45.792
+find evidence of a “product market trap:” At least among the college students in this experiment, large numbers of people are choosing to use social media platforms they also wish didn’t exist at all…[T]he authors found that [subjects] would…be willing to pay an average of $24 to deactivate the platform on their campus for four weeks.
+
+01:55:45.792 --> 01:55:52.710
+This amount rose to $43 when they also included the minority of students who weren’t TikTok users.
+
+01:55:52.710 --> 01:56:08.170
+(Results for Instagram were similar and are included in the full policy brief.) [emphasis mine]
+The students said that they only stayed on TikTok because other people were on it too, and they were afraid of missing out.
+
+01:56:08.170 --> 01:56:11.276
+FOMO is not utility; it’s a bad equilibrium.
+
+01:56:11.276 --> 01:56:20.594
+There’s also an impulse to do a sort of “Good Tsar, bad boyars” maneuver, where people say “it’s not the phones, it’s social media”.
+
+01:56:20.594 --> 01:56:26.030
+But this is an argument over whether guns kill people or bullets kill people.
+
+01:56:26.030 --> 01:56:42.973
+Yes, we could access social media from laptops or other stationary devices, but we could only do so for part of the day; that would force us to develop offline interactions and relationships during the other hours, like we did back in 2007.
+
+01:56:42.973 --> 01:56:58.080
+It’s the ever-present umbilical that enables — and perhaps even mandates — the replacement of in-person interaction with an online hive mind.2
+In 2007 I suppressed my deep-seated doubts about smartphone technology.
+
+01:56:58.080 --> 01:57:04.575
+I am a techno-optimist, and this was just another miraculous new tool for human empowerment.
+
+01:57:04.575 --> 01:57:12.199
+And yet the two decades since 2007 seem to have only validated my misgivings, across a number of dimensions.
+
+01:57:12.199 --> 01:57:31.400
+Plenty of evidence has linked smartphones — and the social media apps that take up the single biggest chunk of the time we spend on those phones — to rising unhappiness among the world’s young people:
+Since I wrote about this in 2023, the evidence has only grown stronger.
+
+01:57:31.400 --> 01:57:34.083
+Here’s an experiment by Castelo et al.
+
+01:57:34.083 --> 01:57:45.025
+(2025):
+We used a mobile phone application to block all mobile internet access from participants' smartphones for 2 weeks and objectively track compliance.
+
+01:57:45.025 --> 01:58:01.050
+This intervention specifically targeted the feature that makes smartphones "smart" (mobile internet) while allowing participants to maintain mobile connection (through texts and calls) and nonmobile access to the internet (e.g.
+
+01:58:01.050 --> 01:58:02.956
+through desktop computers).
+
+01:58:02.956 --> 01:58:15.804
+The intervention improved mental health, subjective well-being, and objectively measured ability to sustain attention; 91% of participants improved on at least one of these outcomes.
+
+01:58:15.804 --> 01:58:34.653
+Mediation analyses suggest that these improvements can be partially explained by the intervention's impact on how people spent their time; when people did not have access to mobile internet, they spent more time socializing in person, exercising, and being in nature.
+
+01:58:34.653 --> 01:58:39.594
+[emphasis mine]
+Other recent experiments have yielded similar results.
+
+01:58:39.594 --> 01:58:47.148
+The likeliest explanation is that there is simply something thin and insufficient about online interaction.
+
+01:58:47.148 --> 01:58:56.819
+It’s lacking in some essential emotional nutrient that human beings evolved to harvest from the physical proximity of other human beings.
+
+01:58:56.819 --> 01:59:15.032
+Perhaps it’s something cognitive — the richness of context that tells you that no, your friend’s life isn’t perfect just because they posted a cool video of their trip to Europe, and thus you don’t need to feel constantly envious and inadequate and left-out.
+
+01:59:15.032 --> 01:59:24.563
+Or perhaps it’s something physical — the tiny touch of a high-five or a hug, the simple feeling of the proximity of other human bodies.
+
+01:59:24.563 --> 01:59:35.434
+Whatever this emotional nutrient is, our young people are starving for it, while they binge on the cheap sugar-alcohol of emoji reactions and story views.
+
+01:59:35.434 --> 01:59:44.753
+In other parts of the world, young people are just starting to break free of this collective trap, but not yet in the United States.
+
+01:59:44.753 --> 01:59:52.094
+But making teenagers sad is one thing; putting an end to the Human Age on planet Earth is quite another.
+
+01:59:52.094 --> 01:59:55.906
+The global fertility decline is a long-standing trend.
+
+01:59:55.906 --> 02:00:08.190
+Every country that escapes poverty, urbanizes, and teaches its people to read is going to transition from a high fertility rate (5-7 children per woman) to a much lower rate.
+
+02:00:08.190 --> 02:00:18.144
+Long before the smartphone burst on the scene, most of Europe and the richer parts of East Asia had fallen below replacement-level fertility.
+
+02:00:18.144 --> 02:00:22.520
+Everyone would crack jokes about Japan not having enough kids.
+
+02:00:22.520 --> 02:00:24.554
+Now defense and geopolitics.
+
+02:00:24.554 --> 02:00:30.073
+Seth Frantzman on Israel's Smart Shooter supplying additional SMASH systems.
+
+02:00:30.073 --> 02:00:41.039
+Israel's Smart Shooter to Supply additional SMASH Hopper Systems to the Israeli Ministry of Defense under an agreement valued at Up to NIS 7.4 million.
+
+02:00:41.039 --> 02:00:45.904
+This is the latest of several recent deals the company has secured.
+
+02:00:45.904 --> 02:00:48.155
+The others were in the US also.
+
+02:00:48.155 --> 02:00:50.905
+And a hard story flagged by Visegrad 24.
+
+02:00:50.905 --> 02:01:19.089
+🇫🇷 A French woman who was sexually assaulted by a Tunisian migrant could be sentenced to prison today for ‘incitement to racial hatred.’
+
+During a TV discussion, she said that “the main danger for women in France is Black African and Arab immigrant men.”
+
+She was initially given a six-month suspended prison sentence and a €3,000 fine, but she appealed the sentence, with the new verdict expected later today.
+
+02:01:19.089 --> 02:01:21.220
+Her attacker is still at large.
+
+02:01:21.220 --> 02:01:23.204
+Two from the history shelf.
+
+02:01:23.204 --> 02:01:27.758
+First, a painter born in 1824 to a Jewish family in Groningen.
+
+02:01:27.758 --> 02:01:37.747
+Born in 1824 to a Jewish family in Groningen, painter Jozef Israëls rose to become the most celebrated Dutch artist of the 19th century.
+
+02:01:37.747 --> 02:01:42.815
+His moving scene “A Jewish Wedding,” in the Rijksmuseum in Amsterdam.
+
+02:01:42.815 --> 02:01:46.728
+And the day Albert Einstein received a ticker-tape parade.
+
+02:01:46.728 --> 02:01:52.733
+Albert Einstein received a historic ticker tape parade in New York City on April 15 1921.
+
+02:01:52.733 --> 02:01:57.524
+Making him the only scientist ever to be honored with this celebration.
+
+02:01:57.524 --> 02:02:05.013
+It was during his first trip to the United States to promote the creation of the Hebrew University in Jerusalem
+
+02:02:05.013 --> 02:02:06.725
+Finally, the long read.
+
+02:02:06.725 --> 02:02:13.274
+A new paper tries to measure AI's real impact on productivity across nineteen economies.
+
+02:02:13.274 --> 02:02:14.614
+Here is the essay.
+
+02:02:14.614 --> 02:02:57.555
+The Machine Already Showed Up in the Numbers
+How economists measured AI's productivity contribution from what has already happened, and found roughly $1.26 trillion a year
+
+About: this essay analyzes "Measuring the Impact of AI on Productivity" by Benjamin Verschuere and Angus Cameron of Liminal Capital, a 76-page empirical study that estimates artificial intelligence's contribution to trend productivity growth across the United States and eighteen other economies through the end of 2025, identified from observed sectoral outcomes rather than from forecasts of diffusion.
+
+02:02:57.555 --> 02:03:11.397
+For most of the past three years, the question of what artificial intelligence will do to the economy has been answered with forecasts, and the forecasts have not agreed with each other.
+
+02:03:11.397 --> 02:03:28.886
+At one end, Daron Acemoglu, applying a classic accounting argument about task-level cost savings, projected that AI would lift total factor productivity in the United States by a cumulative two-thirds of one percent over a full decade.
+
+02:03:28.886 --> 02:03:38.561
+At the other end, a team at Goldman Sachs led by Jan Hatzius projected one-and-a-half percent per year, every year, for ten years.
+
+02:03:38.561 --> 02:03:45.556
+That is more than an order of magnitude of disagreement, and the disagreement is not a detail.
+
+02:03:45.556 --> 02:04:06.022
+It is a sign that nobody actually knew, because every one of these estimates was built the same way: you make structural assumptions about how fast the technology will diffuse and how many tasks it can substitute for, you turn the crank, and a number comes out the other end.
+
+02:04:06.022 --> 02:04:15.176
+What none of them did was look at whether the productivity signature they were predicting had already appeared in the data.
+
+02:04:15.176 --> 02:04:20.460
+That is the gap the paper I want to walk you through sets out to close.
+
+02:04:20.460 --> 02:04:29.242
+Its authors, Benjamin Verschuere and Angus Cameron, take the opposite approach from the entire forecasting literature.
+
+02:04:29.242 --> 02:04:32.591
+They do not project forward from assumptions.
+
+02:04:32.591 --> 02:04:42.042
+They measure backward from what has already happened in the national accounts since ChatGPT was released in late November 2022.
+
+02:04:42.042 --> 02:04:48.889
+The headline result is large and worth stating plainly before we examine how they got there.
+
+02:04:48.889 --> 02:05:08.089
+They estimate that at the end-of-2025 run rate, AI is contributing approximately $878 billion per year to trend productivity growth in the United States, with a ninety-five percent confidence interval running from about $602 billion to about $1.155 trillion.
+
+02:05:08.089 --> 02:05:26.695
+That single figure raises the aggregate productivity growth rate of the five sectors they study from a counterfactual of plus 2.2 percent per year, which is roughly what the economy would have done without AI, to a realized plus 5.0 percent per year.
+
+02:05:26.695 --> 02:05:44.556
+Add in the twelve European economies they pool together, which contribute about $138 billion, and China, which contributes about $240 billion, and the combined figure across these three regions reaches approximately $1.26 trillion per year.
+
+02:05:44.556 --> 02:05:47.309
+These are not predictions about 2030.
+
+02:05:47.309 --> 02:06:07.403
+They are measurements of a productivity flow that the authors argue is already running through the books, and the entire methodological burden of the paper is to convince you that this flow is real, that it is AI, and that it is not something else wearing an AI costume.
+
+02:06:07.403 --> 02:06:13.506
+To follow the argument you need one concept, and it is the keystone of everything.
+
+02:06:13.506 --> 02:06:23.701
+The authors measure how exposed each sector of the economy is to AI using a construct they call Workflow Completeness, written as C-star.
+
+02:06:23.701 --> 02:06:28.464
+The idea is mechanical and, once you see it, hard to argue with.
+
+02:06:28.464 --> 02:07:01.954
+They take the roughly 18,796 individual task statements catalogued in the Department of Labor's O*NET database, the exhaustive inventory of what people actually do in their jobs, and they score each one on a four-point scale according to how completely AI can perform it on its own, from zero, meaning AI cannot do it, through partial assistance and substantial completion with human oversight, up to three, meaning end-to-end autonomous performance.
+
+02:07:01.954 --> 02:07:15.424
+They roll those task scores up to occupations, weighting by importance, and then roll occupations up to sectors, weighting by how many people each sector employs in each occupation.
+
+02:07:15.424 --> 02:07:24.727
+The result is a single number for each sector that captures the ceiling of what AI can structurally do to that sector's work.
+
+02:07:24.727 --> 02:07:30.978
+Information and Professional Services score high, around 0.79 and 0.66 respectively.
+
+02:07:30.978 --> 02:07:33.955
+Construction scores 0.18, Industry 0.14.
+
+02:07:33.955 --> 02:08:02.235
+The crucial validation, established in a companion paper, is that this theoretical measure tracks what firms actually report doing: across nine sectors, C-star correlates with firm-reported AI adoption from the Census Bureau's Business Trends and Outlook Survey at 0.89, and it converges with an entirely independent AI-exposure measure built by Felten, Raj, and Seamans at 0.937.
+
+02:08:02.235 --> 02:08:06.551
+So C-star is not just a guess about where AI could matter.
+
+02:08:06.551 --> 02:08:11.314
+It is a validated proxy for where AI is actually being deployed.
+
+02:08:11.314 --> 02:08:13.249
+Now the logic of the test.
+
+02:08:13.249 --> 02:08:37.808
+If AI is genuinely driving post-ChatGPT productivity, then two things should be visible simultaneously in the data: productivity in high-C-star sectors should grow faster than in low-C-star sectors after the fourth quarter of 2022, and the gap should widen with time as adoption diffuses, rather than appearing as a one-time jump.
+
+02:08:37.808 --> 02:08:44.432
+The authors build a panel difference-in-differences specification to detect exactly this.
+
+02:08:44.432 --> 02:08:57.009
+They strip out, for each sector, its own pre-2019 linear productivity trend, so they are working with the excess productivity above where each sector "should" have been.
+
+02:08:57.009 --> 02:09:11.075
+Then they let the data answer a single question: after ChatGPT, does the productivity gap between high- and low-exposure sectors widen quarter by quarter, at a rate that scales with C-star?
+
+02:09:11.075 --> 02:09:21.270
+The coefficient that answers this, which they call delta-beta, comes back at plus 2.088 percentage points per quarter per unit of C-star.
+
+02:09:21.270 --> 02:09:45.234
+To translate that into something concrete: evaluated across the spread from Construction to Information, it implies that Information's productivity grows about 1.27 percentage points per quarter faster than Construction's, purely from the AI-scaled component, over and above any common shock that hit every sector at once.
+
+02:09:45.234 --> 02:09:57.588
+That common shock, by the way, is deliberately absorbed into time fixed effects, which is what makes this specification more conservative than a simple cross-section.
+
+02:09:57.588 --> 02:10:05.849
+The pandemic-era productivity surge, whatever caused it, gets netted out rather than mistakenly credited to AI.
+
+02:10:05.849 --> 02:10:19.691
+The authors are unusually careful, almost obsessive, about inference, and here is where a sophisticated reader should pay attention rather than glaze over, because the care is the point.
+
+02:10:19.691 --> 02:10:39.040
+With only nine sector clusters, standard asymptotic statistics are unreliable, so they run what they call an inference cascade, four analytic methods plus two resampling methods, and they report all of them, including the ones that look worst for their result.
+
+02:10:39.040 --> 02:10:46.408
+Plain OLS, which ignores the panel structure, gives a p-value of 0.090, just short of significance.
+
+02:10:46.408 --> 02:10:59.506
+Every cluster-robust analytic method, by contrast, clears conventional thresholds comfortably: sector-clustered and time-clustered both below 0.001, two-way clustered at 0.005.
+
+02:10:59.506 --> 02:11:08.065
+Their designated primary test, a wild cluster bootstrap with Rademacher weights and sector clustering, gives 0.016.
+
+02:11:08.065 --> 02:11:24.288
+The most demanding test of all, a permutation test that shuffles the C-star labels across sectors ten thousand times and asks how often random reassignment produces a t-statistic as large as the real one, gives 0.0056.
+
+02:11:24.288 --> 02:11:27.935
+The observed statistic ranked 56th out of 10,001.
+
+02:11:27.935 --> 02:11:42.075
+The honest weak spot, which they flag rather than hide, is that the single most conservative bootstrap variant, Mammen weights on sector clusters, sits at 0.111, above the five percent line.
+
+02:11:42.075 --> 02:11:57.108
+Their summary of their own result is exactly right: it holds under the primary inference cascade, falls short of significance only under that one most conservative variant, and survives everything else.
+
+02:11:57.108 --> 02:12:09.313
+But statistical significance of a slope is not the same as proof that AI caused it, and the authors know that correlation consistent with causation is a weak claim.
+
+02:12:09.313 --> 02:12:17.053
+Their real identification rests on something more demanding, which they call the joint-pattern argument.
+
+02:12:17.053 --> 02:12:53.371
+AI-driven labor substitution should leave a specific four-part fingerprint: output rising with C-star, employment falling with C-star, the pattern emerging precisely at the fourth quarter of 2022 and not at some arbitrary earlier or later date, and a cross-sectional signature mechanically distinct from the pandemic-era dynamics that the literature attributes to compositional reallocation, labor-quality cleansing, and capital deepening, none of which scale with task-level AI exposure.
+
+02:12:53.371 --> 02:13:02.227
+And this is where the paper becomes genuinely convincing, because the fingerprint reverses sign across the two regimes.
+
+02:13:02.227 --> 02:13:20.683
+During the pandemic window, productivity gains were not ranked by AI exposure at all; the correlation between productivity change and C-star was actually negative, minus 0.46, and high-exposure sectors were adding employment, correlation plus 0.79.
+
+02:13:20.683 --> 02:13:26.488
+Information, the highest-exposure sector, was the weakest productivity gainer.
+
+02:13:26.488 --> 02:13:37.949
+The pandemic gains concentrated in Industry, Trade, and Education, exactly the sectors where excess-layoff dynamics and labor-quality cleansing dominated.
+
+02:13:37.949 --> 02:13:48.070
+After ChatGPT, both correlations flip: productivity change now correlates with C-star at plus 0.86, and employment change at minus 0.60.
+
+02:13:48.070 --> 02:13:59.978
+Information goes from laggard to leader, gaining 37.3 percent in productivity through 26.3 percent value-added growth combined with an 8 percent employment cut.
+
+02:13:59.978 --> 02:14:06.080
+This is the output-up, labor-down signature, and it is sharply scaled by exposure.
+
+02:14:06.080 --> 02:14:26.323
+It is also consistent with independent labor-market evidence: Gad Levanon's documentation of roughly three million missing jobs concentrated in high-AI-exposure white-collar sectors since late 2022, arising from output continuing to grow while headcount stagnated or fell.
+
+02:14:26.323 --> 02:14:37.709
+The authors then do something most empirical papers skip: they line up the leading alternative explanations and shoot them down one by one, ten in total.
+
+02:14:37.709 --> 02:14:51.998
+The most serious is that high-C-star sectors simply invested heavily in IT during the 2020-2021 remote-work pivot, and the post-2022 productivity is the delayed payoff of that capital, not AI.
+
+02:14:51.998 --> 02:14:57.059
+So they run a horse race, adding IT intensity as a parallel control.
+
+02:14:57.059 --> 02:15:07.626
+The AI-scaled coefficient barely moves, from 2.088 to 2.051, while the IT coefficient comes back at 0.013, essentially zero and insignificant.
+
+02:15:07.626 --> 02:15:18.715
+The next candidate is the over-hiring correction: the tech layoffs of 2022-2024 mechanically raised value added per worker as the denominator shrank.
+
+02:15:18.715 --> 02:15:30.102
+This is the closest competitor, and the authors handle it with a cross-sectional inversion test that is, to my mind, the cleverest argument in the paper.
+
+02:15:30.102 --> 02:15:40.074
+Under the over-hiring story, the sector with the biggest hiring surplus should produce the biggest subsequent productivity correction.
+
+02:15:40.074 --> 02:15:51.609
+Transport and Logistics had the largest hiring surplus in the entire dataset, plus 15.7 percent above its pre-pandemic peak, more than twice Information's.
+
+02:15:51.609 --> 02:16:02.996
+Yet Transport added jobs after ChatGPT and produced excess productivity of only 3.2 percentage points, while Information cut headcount and produced 10.9.
+
+02:16:02.996 --> 02:16:07.684
+The pattern is exactly backward from what over-hiring predicts.
+
+02:16:07.684 --> 02:16:16.540
+When controlled for directly, over-hiring reduces the estimated AI effect by about a quarter but leaves it significant.
+
+02:16:16.540 --> 02:16:39.164
+Then comes cost of capital, the monetary-tightening story, and it fails on timing in a way that is almost too neat: between the policy-rate peak in late 2023 and the end of 2025, the federal funds rate fell by 1.4 percentage points while the C-star productivity gradient rose from plus 8.6 to plus 14.35.
+
+02:16:39.164 --> 02:16:47.127
+The gradient accelerated through the easing cycle, the opposite of what a cost-of-capital channel predicts.
+
+02:16:47.127 --> 02:17:01.416
+Cognitive task content, measurement artifact, date placebos, mean reversion, jobless-recovery dynamics, and a 2008-recovery placebo round out the list, and none reproduces the joint signature.
+
+02:17:01.416 --> 02:17:16.673
+The date placebos are particularly reassuring: when you assign a fake treatment date of 2018 or 2020, the estimated effect comes back negative, minus 1.52 and minus 0.78, signed against the real direction.
+
+02:17:16.673 --> 02:17:21.882
+The specification does not generically detect any post-period feature.
+
+02:17:21.882 --> 02:17:25.380
+It detects a post-ChatGPT feature specifically.
+
+02:17:25.380 --> 02:17:31.036
+The cross-country extension is where the story gains both reach and texture.
+
+02:17:31.036 --> 02:17:39.892
+Applying the same machinery to eighteen other economies, the authors find effects that scale with deployment intensity.
+
+02:17:39.892 --> 02:17:59.539
+The twelve European economies, pooled, show AI contributing plus 0.614 percentage points per quarter, equivalent to plus 2.46 per year, about 31 percent of the US rate, statistically significant under analytic two-way clustering but borderline under the bootstrap.
+
+02:17:59.539 --> 02:18:15.391
+China, dated to its own 2023 treatment because ChatGPT was blocked and domestic large language models reached enterprise scale only in mid-to-late 2023, shows plus 3.80 per year, roughly 48 percent of the US rate.
+
+02:18:15.391 --> 02:18:23.726
+The US and China are the two largest single-country effects, in the same order of magnitude, with the US larger.
+
+02:18:23.726 --> 02:18:37.048
+Germany and Sweden are individually significant; Finland is marginal; the rest of the major economies return positive but insignificant estimates that the authors do not oversell.
+
+02:18:37.048 --> 02:18:53.048
+And here is the most striking cross-country finding, the one that reframes what AI is doing: in six of the twelve EU economies, plus Japan and Australia, the counterfactual productivity trend without AI is negative.
+
+02:18:53.048 --> 02:18:56.695
+AI is not accelerating growth in these economies.
+
+02:18:56.695 --> 02:19:01.681
+It is the difference between stagnation and modest positive growth.
+
+02:19:01.681 --> 02:19:10.239
+The EU-pooled decomposition makes this concrete: without AI, minus 0.3 percent per year; with AI, plus 0.5 percent.
+
+02:19:10.239 --> 02:19:22.221
+The authors put it sharply, that in much of advanced Europe and East Asia, AI is the difference between trend productivity stagnation and modest positive growth.
+
+02:19:22.221 --> 02:19:27.728
+The three policy implications follow directly and are worth carrying away.
+
+02:19:27.728 --> 02:19:41.645
+First, monetary: an AI-driven productivity acceleration is a positive supply shock, raising potential output without raising demand, which calls for accommodation rather than restriction.
+
+02:19:41.645 --> 02:20:06.874
+The US contribution at roughly 3.0 percent of nominal GDP per year is an order of magnitude larger than the supply shocks that have featured in Federal Reserve deliberations over the past decade, which means output-gap and Phillips-curve frameworks that ignore it will systematically understate slack and bias policy toward overtightening.
+
+02:20:06.874 --> 02:20:33.889
+Second, fiscal: productivity-driven nominal GDP growth raises the growth rate in the debt-sustainability identity without raising the interest rate, widening the gap that determines fiscal headroom, and it does so without the inflation tax or the contractionary cost of the alternatives, a genuinely Pareto-superior channel that accrues most to the United States.
+
+02:20:33.889 --> 02:20:46.168
+Third, labor: the policy world's one-size-fits-all "AI displacement" narrative is poorly suited to what the data show, because three distinct patterns are operating.
+
+02:20:46.168 --> 02:20:52.420
+The US shows substitution, output up and labor down, calling for transition support.
+
+02:20:52.420 --> 02:21:06.932
+Europe shows buffering, high-exposure sectors holding flat while low-exposure ones decline, calling for attention to the structural impediments preventing AI from translating into measured gains.
+
+02:21:06.932 --> 02:21:23.081
+China shows augmentation, where Information productivity grew about 94 percent over 2019-2025 alongside roughly 9 percent employment growth, AI raising the productivity of existing workers rather than displacing them.
+
+02:21:23.081 --> 02:21:32.086
+There is a final, quieter contribution that deserves mention because it indicts the tools policymakers currently rely on.
+
+02:21:32.086 --> 02:21:48.533
+The authors test whether published digital-readiness composites, the WIPO Global Innovation Index and an OECD digital-economy composite, predict which economies actually translate AI capability into measured productivity.
+
+02:21:48.533 --> 02:21:49.426
+They do not.
+
+02:21:49.426 --> 02:22:06.171
+Across the seventeen OECD economies with both metrics, the correlations are 0.055 and 0.081, statistically indistinguishable from zero, with confidence intervals spanning from substantially negative to substantially positive.
+
+02:22:06.171 --> 02:22:17.781
+Korea and the United Kingdom rank high on readiness but show small or negative productivity gradients; Italy and Portugal rank lower but show positive ones.
+
+02:22:17.781 --> 02:22:25.372
+Infrastructure-and-skills readiness, it turns out, does not capture what drives differential outcomes.
+
+02:22:25.372 --> 02:22:58.787
+The durable contribution of this paper, the authors argue, is not the specific dollar figures, which will shift as new data arrive, but the measurement framework itself: a portable, sector-level, outcome-anchored way to monitor AI's productivity contribution quarter by quarter, requiring no proprietary survey infrastructure, that surfaces precisely the gaps between what AI can do and what it is actually delivering in each sector of each economy.
+
+02:22:58.787 --> 02:23:11.513
+They even stake out six falsifiers, patterns in 2026-2027 data that would prove them wrong, which is the mark of researchers who believe they have measured something real.
+
+02:23:11.513 --> 02:23:20.295
+The AI productivity question, they conclude, is no longer one that requires waiting on future data to begin answering.
+
+02:23:20.295 --> 02:23:40.909
+The acceleration is already visible in standard national-accounts data, measurable under conventional inference, and asymmetric across the major economies in ways that have direct and immediate implications for how monetary, fiscal, and labor-market policy should be conducted.
+
+02:23:40.909 --> 02:23:42.249
+That's the digest.
+
+02:23:42.249 --> 02:23:50.956
+Every word came from something you bookmarked today; links to each source are in the show notes and on every chapter.
+
+02:23:50.956 --> 02:23:52.296
+Made just for you.
+
+02:23:52.296 --> 02:23:53.040
+Talk soon.
